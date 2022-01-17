@@ -1,0 +1,3144 @@
+{
+    "AangebodenSinds": "/Date(1642234455000+0100)/",
+    "AangebodenSindsTekst": "vandaag",
+    "AantalBadkamers": 1,
+    "AantalKamers": 5,
+    "AantalSlaapkamers": null,
+    "AantalWoonlagen": "3 woonlagen",
+    "Aanvaarding": "In overleg",
+    "Adres": "Meidoorn 37",
+    "AfgekochtDatum": null,
+    "BalkonDakterras": null,
+    "BedrijfsruimteCombinatieObject": null,
+    "BezichtingDagdelen": [
+        {
+            "Naam": "Geen voorkeur",
+            "Waarde": "Geen voorkeur"
+        },
+        {
+            "Naam": "'s ochtends",
+            "Waarde": "'s ochtends"
+        },
+        {
+            "Naam": "'s middags",
+            "Waarde": "'s middags"
+        }
+    ],
+    "BezichtingDagen": [
+        {
+            "Naam": "Geen voorkeur",
+            "Waarde": "Geen voorkeur"
+        },
+        {
+            "Naam": "Alleen werkdagen",
+            "Waarde": "Alleen werkdagen"
+        },
+        {
+            "Naam": "Maandag",
+            "Waarde": "Maandag"
+        },
+        {
+            "Naam": "Dinsdag",
+            "Waarde": "Dinsdag"
+        },
+        {
+            "Naam": "Woensdag",
+            "Waarde": "Woensdag"
+        },
+        {
+            "Naam": "Donderdag",
+            "Waarde": "Donderdag"
+        },
+        {
+            "Naam": "Vrijdag",
+            "Waarde": "Vrijdag"
+        }
+    ],
+    "BijdrageVVE": null,
+    "Bijzonderheden": "gedeeltelijk gestoffeerd",
+    "Bouwjaar": "1984",
+    "Bouwvorm": "bestaande bouw",
+    "BronCode": "LMV",
+    "ContactpersoonEmail": null,
+    "ContactpersoonTelefoon": null,
+    "Cv": "vaillant (gas gestookt combiketel uit 2015, Eigendom)",
+    "DatumOndertekeningAkte": null,
+    "Deeplink": null,
+    "DetailInfo": {
+        "HasPromotionLabel": false,
+        "PromotionLabelType": 0,
+        "RibbonColor": 0,
+        "RibbonText": null,
+        "Tagline": null
+    },
+    "EigendomsSituatie": null,
+    "Energielabel": {
+        "Definitief": true,
+        "Index": 1.40,
+        "Label": "D",
+        "NietBeschikbaar": false,
+        "NietVerplicht": false
+    },
+    "ErfpachtBedrag": null,
+    "Garage": null,
+    "GarageIsolatie": null,
+    "GarageVoorzieningen": null,
+    "GelegenOp": null,
+    "GewijzigdDatum": "/Date(1642234455000+0100)/",
+    "HoofdFoto": "http://cloud.funda.nl/valentina_media/153/774/809_groot.jpg",
+    "HoofdFotoSecure": "http://cloud.funda.nl/valentina_media/153/774/809_groot.jpg",
+    "HoofdTuinType": "achtertuin",
+    "Id": 6228756,
+    "IndBasisPlaatsing": true,
+    "IndFotos": true,
+    "IndIpix": true,
+    "IndOpenhuizenTopper": false,
+    "IndPDF": true,
+    "IndPlattegrond": true,
+    "IndTop": false,
+    "IndVeilingProduct": false,
+    "IndVideo": true,
+    "Inhoud": 400,
+    "InternalId": "6c5e8649-37cd-4c48-81ac-7816b181f021",
+    "IsIngetrokken": false,
+    "IsVerhuurd": false,
+    "IsVerkocht": false,
+    "Isolatie": "dakisolatie, dubbel glas en muurisolatie",
+    "Kenmerken": [
+        {
+            "Ad": null,
+            "Kenmerken": [
+                {
+                    "Naam": "Vraagprijs",
+                    "NaamCss": null,
+                    "Waarde": "<span class=\"price-wrapper\">€ 348.000 kosten koper</span>",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "Servicekosten",
+                    "NaamCss": null,
+                    "Waarde": "&euro;&nbsp;0,0 /mnd",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "Aangeboden sinds",
+                    "NaamCss": null,
+                    "Waarde": "15 januari 2022",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "Status",
+                    "NaamCss": null,
+                    "Waarde": "Beschikbaar",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "Aanvaarding",
+                    "NaamCss": null,
+                    "Waarde": "In overleg",
+                    "WaardeCss": null
+                }
+            ],
+            "LokNummer": 5000,
+            "SubKenmerk": null,
+            "Titel": "Overdracht"
+        },
+        {
+            "Ad": null,
+            "Kenmerken": [
+                {
+                    "Naam": "Soort woonhuis",
+                    "NaamCss": null,
+                    "Waarde": "Eengezinswoning, hoekwoning",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "Bouwvorm",
+                    "NaamCss": null,
+                    "Waarde": "Bestaande bouw",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "Bouwjaar",
+                    "NaamCss": null,
+                    "Waarde": "1984",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "Specifiek",
+                    "NaamCss": null,
+                    "Waarde": "Gedeeltelijk gestoffeerd",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "Soort dak",
+                    "NaamCss": null,
+                    "Waarde": "Zadeldak bedekt met dakpannen",
+                    "WaardeCss": null
+                }
+            ],
+            "LokNummer": 5010,
+            "SubKenmerk": null,
+            "Titel": "Bouw"
+        },
+        {
+            "Ad": null,
+            "Kenmerken": [
+                {
+                    "Naam": "Wonen (= woonoppervlakte) ",
+                    "NaamCss": "sub-cat",
+                    "Waarde": "112&nbsp;m&sup2;",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "Overige inpandige ruimte",
+                    "NaamCss": "sub-cat",
+                    "Waarde": "6&nbsp;m&sup2;",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "Externe bergruimte",
+                    "NaamCss": "sub-cat",
+                    "Waarde": "6&nbsp;m&sup2;",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "Perceeloppervlakte",
+                    "NaamCss": null,
+                    "Waarde": "170&nbsp;m&sup2;",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "Inhoud",
+                    "NaamCss": null,
+                    "Waarde": "400&nbsp;m&sup3;",
+                    "WaardeCss": null
+                }
+            ],
+            "LokNummer": 5020,
+            "SubKenmerk": {
+                "Ad": "<a class=\"item-blueprint pos-r\" href=\"/koop/poortugaal/huis-88037755-meidoorn-37/plattegrond/\">Plattegrond</a>",
+                "Kenmerken": [],
+                "LokNummer": 0,
+                "SubKenmerk": null,
+                "Titel": "<strong>Gebruiksoppervlakten</strong>"
+            },
+            "Titel": "Oppervlakten en inhoud"
+        },
+        {
+            "Ad": null,
+            "Kenmerken": [
+                {
+                    "Naam": "Aantal kamers",
+                    "NaamCss": null,
+                    "Waarde": "5 kamers (4 slaapkamers)",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "Aantal badkamers",
+                    "NaamCss": null,
+                    "Waarde": "1 badkamer en 1 apart toilet",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "Badkamervoorzieningen",
+                    "NaamCss": null,
+                    "Waarde": "Douche en toilet",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "Aantal woonlagen",
+                    "NaamCss": null,
+                    "Waarde": "3 woonlagen",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "Voorzieningen",
+                    "NaamCss": null,
+                    "Waarde": "Buitenzonwering, dakraam, glasvezelkabel, mechanische ventilatie en natuurlijke ventilatie",
+                    "WaardeCss": null
+                }
+            ],
+            "LokNummer": 5030,
+            "SubKenmerk": null,
+            "Titel": "Indeling"
+        },
+        {
+            "Ad": null,
+            "Kenmerken": [
+                {
+                    "Naam": "Energielabel",
+                    "NaamCss": null,
+                    "Waarde": "D 1,40",
+                    "WaardeCss": "d"
+                },
+                {
+                    "Naam": "Isolatie",
+                    "NaamCss": null,
+                    "Waarde": "Dakisolatie, dubbel glas en muurisolatie",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "Verwarming",
+                    "NaamCss": null,
+                    "Waarde": "C.V.-ketel en vloerverwarming geheel",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "Warm water",
+                    "NaamCss": null,
+                    "Waarde": "C.V.-ketel",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "C.V.-ketel",
+                    "NaamCss": null,
+                    "Waarde": "Vaillant (gas gestookt combiketel uit 2015, Eigendom)",
+                    "WaardeCss": null
+                }
+            ],
+            "LokNummer": 5040,
+            "SubKenmerk": null,
+            "Titel": "Energie"
+        },
+        {
+            "Ad": null,
+            "Kenmerken": [
+                {
+                    "Naam": "Poortugaal C 1336",
+                    "NaamCss": "sub-cat frst",
+                    "Waarde": "Poortugaal C 1336",
+                    "WaardeCss": "sub-cat frst"
+                },
+                {
+                    "Naam": "Oppervlakte",
+                    "NaamCss": "sub-cat",
+                    "Waarde": "170 m²",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "Eigendomssituatie",
+                    "NaamCss": "sub-cat lst",
+                    "Waarde": "Volle eigendom",
+                    "WaardeCss": null
+                }
+            ],
+            "LokNummer": 0,
+            "SubKenmerk": null,
+            "Titel": "Kadastrale gegevens"
+        },
+        {
+            "Ad": null,
+            "Kenmerken": [
+                {
+                    "Naam": "Ligging",
+                    "NaamCss": null,
+                    "Waarde": "Aan rustige weg en in woonwijk",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "Tuin",
+                    "NaamCss": null,
+                    "Waarde": "Achtertuin, voortuin en zijtuin",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "Achtertuin",
+                    "NaamCss": null,
+                    "Waarde": "55 m² (10 meter diep en 5,5 meter breed)",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "Ligging tuin",
+                    "NaamCss": null,
+                    "Waarde": "Gelegen op het zuiden bereikbaar via achterom",
+                    "WaardeCss": null
+                }
+            ],
+            "LokNummer": 5060,
+            "SubKenmerk": null,
+            "Titel": "Buitenruimte"
+        },
+        {
+            "Ad": null,
+            "Kenmerken": [
+                {
+                    "Naam": "Schuur/berging",
+                    "NaamCss": null,
+                    "Waarde": "Aangebouwde stenen berging",
+                    "WaardeCss": null
+                },
+                {
+                    "Naam": "Voorzieningen",
+                    "NaamCss": null,
+                    "Waarde": "Elektra",
+                    "WaardeCss": null
+                }
+            ],
+            "LokNummer": 5070,
+            "SubKenmerk": null,
+            "Titel": "Bergruimte"
+        },
+        {
+            "Ad": null,
+            "Kenmerken": [
+                {
+                    "Naam": "Soort parkeergelegenheid",
+                    "NaamCss": null,
+                    "Waarde": "Op eigen terrein",
+                    "WaardeCss": null
+                }
+            ],
+            "LokNummer": 5090,
+            "SubKenmerk": null,
+            "Titel": "Parkeergelegenheid "
+        }
+    ],
+    "KenmerkenKort": {
+        "Ad": null,
+        "Kenmerken": [
+            {
+                "Naam": "Soort woonhuis",
+                "NaamCss": null,
+                "Waarde": "Eengezinswoning, hoekwoning",
+                "WaardeCss": null
+            },
+            {
+                "Naam": "Woonoppervlakte",
+                "NaamCss": null,
+                "Waarde": "112&nbsp;m&sup2;",
+                "WaardeCss": null
+            },
+            {
+                "Naam": "Aantal kamers",
+                "NaamCss": null,
+                "Waarde": "5 kamers (4 slaapkamers)",
+                "WaardeCss": null
+            },
+            {
+                "Naam": "Bijzonderheden",
+                "NaamCss": null,
+                "Waarde": "Tuin en Schuur/berging",
+                "WaardeCss": null
+            },
+            {
+                "Naam": "Inhoud",
+                "NaamCss": null,
+                "Waarde": "400&nbsp;m&sup3;",
+                "WaardeCss": null
+            }
+        ],
+        "LokNummer": 0,
+        "SubKenmerk": null,
+        "Titel": null
+    },
+    "KenmerkenTitel": null,
+    "Ligging": "aan rustige weg en in woonwijk",
+    "MLIUrl": "https://www.knab.nl/hypotheken/funda/index.html?price=348000&zip=3171NB&hsnr=37",
+    "Makelaar": "VBW Makelaars & Taxateurs",
+    "MakelaarId": 60638,
+    "MakelaarTelefoon": "010-2954888",
+    "MedeAanbieders": [],
+    "Media": [
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "4b9d01af-a3d1-4a04-9641-b9db071ec7a4",
+            "IndexNumber": 1,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/809_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/809_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/809_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/809_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/809_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/809_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/809_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/809_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "c3a6f174-0210-456d-a9f7-016117648c72",
+            "IndexNumber": 2,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/824_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/824_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/824_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/824_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/824_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/824_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/824_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/824_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "9cf3d3f0-e8b7-4296-b9db-cd68b90ca18e",
+            "IndexNumber": 3,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/801_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/801_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/801_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/801_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/801_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/801_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/801_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/801_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "62ec5bd6-bc6e-41c0-9c4c-ece249021599",
+            "IndexNumber": 4,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/803_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/803_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/803_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/803_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/803_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/803_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/803_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/803_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "37146cfe-6afe-428f-bb6a-2e3e404b814e",
+            "IndexNumber": 5,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/805_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/805_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/805_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/805_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/805_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/805_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/805_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/805_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "f017316b-abf6-4d06-b5c8-fb05101388e0",
+            "IndexNumber": 6,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/825_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/825_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/825_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/825_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/825_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/825_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/825_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/825_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "9c32cd89-0ea6-4f31-8f58-0765c67fc953",
+            "IndexNumber": 7,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/831_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/831_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/831_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/831_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/831_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/831_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/831_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/831_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "1d5c206a-8da2-42bc-849b-00e836bcc69d",
+            "IndexNumber": 8,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/836_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/836_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/836_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/836_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/836_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/836_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/836_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/836_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "0235408a-b775-4286-9e97-f1b832ffabd9",
+            "IndexNumber": 9,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/802_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/802_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/802_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/802_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/802_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/802_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/802_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/802_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "93704c0a-77a1-43a8-8580-6cf217ac3fb2",
+            "IndexNumber": 10,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/830_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/830_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/830_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/830_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/830_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/830_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/830_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/830_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "9ef4cc50-4beb-4521-a6a7-b6481ea803eb",
+            "IndexNumber": 11,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/818_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/818_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/818_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/818_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/818_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/818_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/818_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/818_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "e60c8ad7-ee66-4cf8-8f50-8a9656849be0",
+            "IndexNumber": 12,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/852_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/852_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/852_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/852_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/852_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/852_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/852_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/852_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "6ad4c686-fded-4be1-a50f-9000167ca7ef",
+            "IndexNumber": 13,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/810_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/810_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/810_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/810_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/810_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/810_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/810_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/810_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "f1b9f94c-a171-4155-bbea-1ca8cf2899e8",
+            "IndexNumber": 14,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/832_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/832_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/832_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/832_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/832_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/832_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/832_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/832_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "5eb20f7d-0fb7-43c2-86ce-77e35756deef",
+            "IndexNumber": 15,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/819_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/819_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/819_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/819_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/819_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/819_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/819_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/819_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "12d29cc9-8899-4140-bd3f-039197e3548e",
+            "IndexNumber": 16,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/807_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/807_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/807_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/807_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/807_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/807_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/807_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/807_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "9c4ef23d-8651-4977-a265-f94e0c0ea5eb",
+            "IndexNumber": 17,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/833_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/833_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/833_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/833_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/833_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/833_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/833_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/833_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "d6edd23a-656a-4e4c-a71b-472a746f266f",
+            "IndexNumber": 18,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/813_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/813_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/813_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/813_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/813_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/813_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/813_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/813_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "35204659-ed0c-4042-8e11-975bdf2f142a",
+            "IndexNumber": 19,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/804_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/804_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/804_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/804_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/804_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/804_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/804_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/804_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "0799651c-83b1-423e-bea1-2493ecf9a0b0",
+            "IndexNumber": 20,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/860_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/860_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/860_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/860_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/860_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/860_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/860_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/860_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "ed478bee-fbff-437e-9adc-d3cbd3da0e47",
+            "IndexNumber": 21,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/814_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/814_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/814_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/814_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/814_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/814_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/814_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/814_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "b220164d-3492-474c-b393-ec53e900af24",
+            "IndexNumber": 22,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/862_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/862_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/862_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/862_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/862_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/862_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/862_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/862_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "ccb5ed82-075e-4a2d-978b-da661c0caca9",
+            "IndexNumber": 24,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/815_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/815_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/815_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/815_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/815_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/815_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/815_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/815_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "485fbd66-4c49-45f9-b1e7-bd2e9bd71163",
+            "IndexNumber": 25,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/808_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/808_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/808_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/808_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/808_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/808_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/808_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/808_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "828a61df-5e57-49f3-95dd-ffb2e3a0341b",
+            "IndexNumber": 26,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/854_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/854_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/854_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/854_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/854_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/854_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/854_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/854_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "c11e73c6-a48a-4c7d-abec-23cf6c20ffeb",
+            "IndexNumber": 27,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/856_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/856_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/856_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/856_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/856_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/856_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/856_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/856_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "26c1b3de-1e9a-43d6-9dbd-d0b29926d751",
+            "IndexNumber": 28,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/853_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/853_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/853_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/853_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/853_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/853_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/853_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/853_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "f67fe6b8-bd78-48e5-ba54-f55f14d98a8c",
+            "IndexNumber": 29,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/806_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/806_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/806_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/806_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/806_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/806_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/806_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/806_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "bb221076-aff8-4f8c-ae80-0e522875c653",
+            "IndexNumber": 30,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/858_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/858_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/858_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/858_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/858_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/858_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/858_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/858_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "d39b4d38-61f5-429d-a6b1-f022f46d8e0b",
+            "IndexNumber": 31,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/811_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/811_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/811_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/811_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/811_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/811_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/811_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/811_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "614031cc-fb2e-40e5-9506-668dfe3bf91f",
+            "IndexNumber": 32,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/812_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/812_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/812_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/812_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/812_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/812_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/812_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/812_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "c3d96de1-16cf-4093-aafa-08861433915d",
+            "IndexNumber": 33,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/846_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/846_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/846_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/846_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/846_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/846_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/846_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/846_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "eb82a6d1-11f4-4293-9e5c-acab191dbb3c",
+            "IndexNumber": 34,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/820_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/820_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/820_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/820_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/820_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/820_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/820_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/820_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "e9ea01e8-e1db-474c-9322-859369fdc5e5",
+            "IndexNumber": 35,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/855_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/855_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/855_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/855_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/855_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/855_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/855_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/855_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "98d52aca-df06-41bf-890c-be7885d82925",
+            "IndexNumber": 36,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/834_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/834_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/834_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/834_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/834_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/834_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/834_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/834_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "5d469c1a-324e-4788-8398-3556610fc480",
+            "IndexNumber": 37,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/816_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/816_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/816_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/816_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/816_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/816_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/816_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/816_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "ea8ca96d-bcdb-4b30-a2dc-c9797ce822cc",
+            "IndexNumber": 38,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/857_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/857_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/857_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/857_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/857_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/857_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/857_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/857_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "1df8fca0-94c2-4a29-9bb3-fa2640f5704c",
+            "IndexNumber": 41,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/835_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/835_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/835_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/835_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/835_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/835_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/835_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/835_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "886f1396-ccbc-4580-89cc-6da3556d5438",
+            "IndexNumber": 42,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/822_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/822_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/822_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/822_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/822_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/822_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/822_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/822_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "8e9faaa4-1fb2-41b5-8498-12118ae26c0d",
+            "IndexNumber": 44,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/821_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/821_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/821_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/821_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/821_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/821_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/821_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/821_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "eb6ba419-6ce8-450a-a341-d213308da99c",
+            "IndexNumber": 45,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/861_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/861_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/861_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/861_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/861_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/861_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/861_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/861_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "053fcc68-ef1b-4f89-baa6-f629d75c3498",
+            "IndexNumber": 46,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/837_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/837_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/837_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/837_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/837_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/837_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/837_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/837_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "9d0645ac-967e-4de0-99d9-f307f1d501e2",
+            "IndexNumber": 200,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/823_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/823_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/823_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/823_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/823_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/823_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/823_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/823_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "ab062acc-0096-4581-9147-af35ecd865d1",
+            "IndexNumber": 201,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/838_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/838_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/838_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/838_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/838_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/838_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/838_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/838_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "3d293b59-c938-419a-a0a7-bb03acf78dc7",
+            "IndexNumber": 202,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/817_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/817_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/817_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/817_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/817_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/817_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/817_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/817_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "cb7d2a99-f4a6-4970-abf7-d3adf0992f33",
+            "IndexNumber": 203,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/827_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/827_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/827_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/827_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/827_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/827_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/827_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/827_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "75208427-a640-4de2-9f8d-e536b08d330f",
+            "IndexNumber": 204,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/845_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/845_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/845_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/845_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/845_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/845_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/845_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/845_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 1,
+            "ContentType": 1,
+            "Id": "484ca169-22b5-4a0f-8cc8-0c1214d5ca36",
+            "IndexNumber": 205,
+            "MediaItems": [
+                {
+                    "Category": 1,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/863_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/863_klein.jpg",
+                    "Width": 121
+                },
+                {
+                    "Category": 4,
+                    "Height": 161,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/863_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/863_middel.jpg",
+                    "Width": 242
+                },
+                {
+                    "Category": 6,
+                    "Height": 386,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/863_groot.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/863_groot.jpg",
+                    "Width": 580
+                },
+                {
+                    "Category": 7,
+                    "Height": 615,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/863_grotere.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/863_grotere.jpg",
+                    "Width": 922
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": null,
+            "RegistratieVerplicht": false,
+            "Soort": 3
+        },
+        {
+            "Categorie": 4,
+            "ContentType": 11,
+            "Id": "8718f357-0901-4ae1-9d57-bb62b7bb2750",
+            "IndexNumber": 1,
+            "MediaItems": [
+                {
+                    "Category": 0,
+                    "Height": 0,
+                    "Url": "http://cloud.funda.nl/valentina_media/",
+                    "UrlSecure": null,
+                    "Width": 0
+                }
+            ],
+            "Metadata": "<QuadiaVideo xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><AssetId>7059310</AssetId><Attribute><AttributeId>7059304</AttributeId><SourceAttributeVersionId>8164627</SourceAttributeVersionId><AspectRatio>1.77777779</AspectRatio><Duration>71371</Duration></Attribute><TranscodingJobIds /><PreviewFrame><Id>7059306</Id><Url>https://quadia.webtvframework.com/funda/video/_file/0/qwtv^8529660819421445435.png</Url></PreviewFrame><Thumbnails><VideoFrame><Suffix>_groot</Suffix><Id>7059307</Id><Url>https://quadia.webtvframework.com/funda/video/_file/0/qwtv^8529660819421445437.png</Url></VideoFrame><VideoFrame><Suffix>_middel</Suffix><Id>7059308</Id><Url>https://quadia.webtvframework.com/funda/video/_file/0/qwtv^8529660819421445439.png</Url></VideoFrame><VideoFrame><Suffix>_klein</Suffix><Id>7059309</Id><Url>https://quadia.webtvframework.com/funda/video/_file/0/qwtv^8529660819421445441.png</Url></VideoFrame></Thumbnails></QuadiaVideo>",
+            "Omschrijving": "Meidoorn 37 Poortugaal.mp4",
+            "RegistratieVerplicht": false,
+            "Soort": 5
+        },
+        {
+            "Categorie": 3,
+            "ContentType": 2,
+            "Id": "536bcd7e-cc6b-4fa3-ad96-91ec034105fd",
+            "IndexNumber": 1001,
+            "MediaItems": [
+                {
+                    "Category": 22,
+                    "Height": 0,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/927.pdf",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/927.pdf",
+                    "Width": 0
+                }
+            ],
+            "Metadata": null,
+            "Omschrijving": "Brochure A4 - Meidoorn 37 - Poortugaal.pdf",
+            "RegistratieVerplicht": false,
+            "Soort": 19
+        },
+        {
+            "Categorie": 5,
+            "ContentType": 1,
+            "Id": "1e50dd90-2ccb-4b80-ab69-88f563b8580e",
+            "IndexNumber": 1,
+            "MediaItems": [
+                {
+                    "Category": 23,
+                    "Height": 0,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/872.xml",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/872.xml",
+                    "Width": 0
+                },
+                {
+                    "Category": 24,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/872_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/872_klein.jpg",
+                    "Width": 160
+                },
+                {
+                    "Category": 25,
+                    "Height": 160,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/872_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/872_middel.jpg",
+                    "Width": 320
+                }
+            ],
+            "Metadata": "<Foto360 xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><Name>Voortuin</Name><Filename>01-360-0012133 .jpg</Filename><ViewAngle>0</ViewAngle><Spots><Spot><Id>1</Id><Type>hotspot</Type><Destination>d788d421-5a89-47ce-8e2c-978429ada87a</Destination><MediaGuid>00000000-0000-0000-0000-000000000000</MediaGuid><PositionX>17.05056500242506</PositionX><PositionY>-6.5915125815531939</PositionY></Spot></Spots><TileInfo><ImageSize>512</ImageSize><Levels><Level><Number>2</Number><TileSizeHeight>1711</TileSizeHeight><TileSizeWidth>1711</TileSizeWidth></Level><Level><Number>1</Number><TileSizeHeight>856</TileSizeHeight><TileSizeWidth>856</TileSizeWidth></Level></Levels></TileInfo><Original><Width>5376</Width><Height>2688</Height></Original></Foto360>",
+            "Omschrijving": "voortuin",
+            "RegistratieVerplicht": false,
+            "Soort": 105
+        },
+        {
+            "Categorie": 5,
+            "ContentType": 1,
+            "Id": "d788d421-5a89-47ce-8e2c-978429ada87a",
+            "IndexNumber": 2,
+            "MediaItems": [
+                {
+                    "Category": 23,
+                    "Height": 0,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/873.xml",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/873.xml",
+                    "Width": 0
+                },
+                {
+                    "Category": 24,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/873_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/873_klein.jpg",
+                    "Width": 160
+                },
+                {
+                    "Category": 25,
+                    "Height": 160,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/873_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/873_middel.jpg",
+                    "Width": 320
+                }
+            ],
+            "Metadata": "<Foto360 xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><Name>Hal</Name><Filename>02-360-0012127 .jpg</Filename><ViewAngle>137.33378048745189</ViewAngle><Spots><Spot><Id>1</Id><Type>hotspot</Type><Destination>1e50dd90-2ccb-4b80-ab69-88f563b8580e</Destination><MediaGuid>00000000-0000-0000-0000-000000000000</MediaGuid><PositionX>68.0149628858743</PositionX><PositionY>6.53584412817366</PositionY></Spot><Spot><Id>2</Id><Type>hotspot</Type><Destination>b4229fa1-6d34-4b35-9a01-61447829d051</Destination><MediaGuid>00000000-0000-0000-0000-000000000000</MediaGuid><PositionX>-42.6662195125481</PositionX><PositionY>-0.731517420412056</PositionY></Spot><Spot><Id>3</Id><Type>hotspot</Type><Destination>d9e2ec84-537d-431b-8213-b01847323ba4</Destination><MediaGuid>00000000-0000-0000-0000-000000000000</MediaGuid><PositionX>-58.951077441581162</PositionX><PositionY>-4.3511831178663813</PositionY></Spot></Spots><TileInfo><ImageSize>512</ImageSize><Levels><Level><Number>2</Number><TileSizeHeight>1711</TileSizeHeight><TileSizeWidth>1711</TileSizeWidth></Level><Level><Number>1</Number><TileSizeHeight>856</TileSizeHeight><TileSizeWidth>856</TileSizeWidth></Level></Levels></TileInfo><Original><Width>5376</Width><Height>2688</Height></Original></Foto360>",
+            "Omschrijving": "hal",
+            "RegistratieVerplicht": false,
+            "Soort": 105
+        },
+        {
+            "Categorie": 5,
+            "ContentType": 1,
+            "Id": "b4229fa1-6d34-4b35-9a01-61447829d051",
+            "IndexNumber": 3,
+            "MediaItems": [
+                {
+                    "Category": 23,
+                    "Height": 0,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/874.xml",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/874.xml",
+                    "Width": 0
+                },
+                {
+                    "Category": 24,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/874_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/874_klein.jpg",
+                    "Width": 160
+                },
+                {
+                    "Category": 25,
+                    "Height": 160,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/874_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/874_middel.jpg",
+                    "Width": 320
+                }
+            ],
+            "Metadata": "<Foto360 xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><Filename>03-360-0012128 .jpg</Filename><ViewAngle>74.375154473442</ViewAngle><Spots><Spot><Id>1</Id><Type>hotspot</Type><Destination>d788d421-5a89-47ce-8e2c-978429ada87a</Destination><MediaGuid>00000000-0000-0000-0000-000000000000</MediaGuid><PositionX>-74.9978202811989</PositionX><PositionY>3.71210626735313</PositionY></Spot><Spot><Id>2</Id><Type>hotspot</Type><Destination>612de7b3-1fd3-45e2-83e5-892de9837327</Destination><MediaGuid>00000000-0000-0000-0000-000000000000</MediaGuid><PositionX>-105.624845526558</PositionX><PositionY>3.0794277611303</PositionY></Spot><Spot><Id>3</Id><Type>hotspot</Type><Destination>818afd68-aea8-4e3a-ac33-b328e6ff8ef5</Destination><MediaGuid>00000000-0000-0000-0000-000000000000</MediaGuid><PositionX>72.568299559818342</PositionX><PositionY>5.2879775598780512</PositionY></Spot></Spots><TileInfo><ImageSize>512</ImageSize><Levels><Level><Number>2</Number><TileSizeHeight>1711</TileSizeHeight><TileSizeWidth>1711</TileSizeWidth></Level><Level><Number>1</Number><TileSizeHeight>856</TileSizeHeight><TileSizeWidth>856</TileSizeWidth></Level></Levels></TileInfo><Original><Width>5376</Width><Height>2688</Height></Original></Foto360>",
+            "Omschrijving": "geennaam",
+            "RegistratieVerplicht": false,
+            "Soort": 105
+        },
+        {
+            "Categorie": 5,
+            "ContentType": 1,
+            "Id": "612de7b3-1fd3-45e2-83e5-892de9837327",
+            "IndexNumber": 4,
+            "MediaItems": [
+                {
+                    "Category": 23,
+                    "Height": 0,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/875.xml",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/875.xml",
+                    "Width": 0
+                },
+                {
+                    "Category": 24,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/875_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/875_klein.jpg",
+                    "Width": 160
+                },
+                {
+                    "Category": 25,
+                    "Height": 160,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/875_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/875_middel.jpg",
+                    "Width": 320
+                }
+            ],
+            "Metadata": "<Foto360 xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><Name>Keuken</Name><Filename>04-360-0012131 .jpg</Filename><ViewAngle>0</ViewAngle><Spots><Spot><Id>1</Id><Type>hotspot</Type><Destination>b4229fa1-6d34-4b35-9a01-61447829d051</Destination><MediaGuid>00000000-0000-0000-0000-000000000000</MediaGuid><PositionX>-106.10664059847767</PositionX><PositionY>0.079744280568349063</PositionY></Spot></Spots><TileInfo><ImageSize>512</ImageSize><Levels><Level><Number>2</Number><TileSizeHeight>1711</TileSizeHeight><TileSizeWidth>1711</TileSizeWidth></Level><Level><Number>1</Number><TileSizeHeight>856</TileSizeHeight><TileSizeWidth>856</TileSizeWidth></Level></Levels></TileInfo><Original><Width>5376</Width><Height>2688</Height></Original></Foto360>",
+            "Omschrijving": "keuken",
+            "RegistratieVerplicht": false,
+            "Soort": 105
+        },
+        {
+            "Categorie": 5,
+            "ContentType": 1,
+            "Id": "d9e2ec84-537d-431b-8213-b01847323ba4",
+            "IndexNumber": 5,
+            "MediaItems": [
+                {
+                    "Category": 23,
+                    "Height": 0,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/876.xml",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/876.xml",
+                    "Width": 0
+                },
+                {
+                    "Category": 24,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/876_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/876_klein.jpg",
+                    "Width": 160
+                },
+                {
+                    "Category": 25,
+                    "Height": 160,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/876_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/876_middel.jpg",
+                    "Width": 320
+                }
+            ],
+            "Metadata": "<Foto360 xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><Name>Overloop</Name><Filename>05-360-0012120 .jpg</Filename><ViewAngle>11.927568135932006</ViewAngle><Spots><Spot><Id>1</Id><Type>hotspot</Type><Destination>d788d421-5a89-47ce-8e2c-978429ada87a</Destination><MediaGuid>00000000-0000-0000-0000-000000000000</MediaGuid><PositionX>-74.1779301557256</PositionX><PositionY>43.8959882433843</PositionY></Spot><Spot><Id>2</Id><Type>hotspot</Type><Destination>248dd987-5020-4d0b-97d7-f42cde5ee5da</Destination><MediaGuid>00000000-0000-0000-0000-000000000000</MediaGuid><PositionX>0.917080519485864</PositionX><PositionY>12.2011427446133</PositionY></Spot><Spot><Id>3</Id><Type>hotspot</Type><Destination>23aa4697-9539-4dfa-ba15-f64924067e52</Destination><MediaGuid>00000000-0000-0000-0000-000000000000</MediaGuid><PositionX>71.7818661000938</PositionX><PositionY>7.33442548157532</PositionY></Spot><Spot><Id>4</Id><Type>hotspot</Type><Destination>fc0e8112-d847-4456-a360-0b731f3c318c</Destination><MediaGuid>00000000-0000-0000-0000-000000000000</MediaGuid><PositionX>134.682717868364</PositionX><PositionY>3.88415576961872</PositionY></Spot><Spot><Id>5</Id><Type>hotspot</Type><Destination>1279d586-6290-4c8b-a6dc-a75c2fc73808</Destination><MediaGuid>00000000-0000-0000-0000-000000000000</MediaGuid><PositionX>-168.072431864068</PositionX><PositionY>12.5258286295911</PositionY></Spot><Spot><Id>6</Id><Type>hotspot</Type><Destination>9ada3eaa-c22c-47ee-84a8-9c630ef0a215</Destination><MediaGuid>00000000-0000-0000-0000-000000000000</MediaGuid><PositionX>-117.00780514856746</PositionX><PositionY>-4.8555923412209951</PositionY></Spot></Spots><TileInfo><ImageSize>512</ImageSize><Levels><Level><Number>2</Number><TileSizeHeight>1711</TileSizeHeight><TileSizeWidth>1711</TileSizeWidth></Level><Level><Number>1</Number><TileSizeHeight>856</TileSizeHeight><TileSizeWidth>856</TileSizeWidth></Level></Levels></TileInfo><Original><Width>5376</Width><Height>2688</Height></Original></Foto360>",
+            "Omschrijving": "overloop",
+            "RegistratieVerplicht": false,
+            "Soort": 105
+        },
+        {
+            "Categorie": 5,
+            "ContentType": 1,
+            "Id": "248dd987-5020-4d0b-97d7-f42cde5ee5da",
+            "IndexNumber": 6,
+            "MediaItems": [
+                {
+                    "Category": 23,
+                    "Height": 0,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/877.xml",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/877.xml",
+                    "Width": 0
+                },
+                {
+                    "Category": 24,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/877_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/877_klein.jpg",
+                    "Width": 160
+                },
+                {
+                    "Category": 25,
+                    "Height": 160,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/877_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/877_middel.jpg",
+                    "Width": 320
+                }
+            ],
+            "Metadata": "<Foto360 xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><Name>Slaapkamer</Name><Filename>06-360-0012124 .jpg</Filename><ViewAngle>0</ViewAngle><Spots><Spot><Id>1</Id><Type>hotspot</Type><Destination>d9e2ec84-537d-431b-8213-b01847323ba4</Destination><MediaGuid>00000000-0000-0000-0000-000000000000</MediaGuid><PositionX>14.254763733543825</PositionX><PositionY>27.684955328412386</PositionY></Spot></Spots><TileInfo><ImageSize>512</ImageSize><Levels><Level><Number>2</Number><TileSizeHeight>1711</TileSizeHeight><TileSizeWidth>1711</TileSizeWidth></Level><Level><Number>1</Number><TileSizeHeight>856</TileSizeHeight><TileSizeWidth>856</TileSizeWidth></Level></Levels></TileInfo><Original><Width>5376</Width><Height>2688</Height></Original></Foto360>",
+            "Omschrijving": "slaapkamer",
+            "RegistratieVerplicht": false,
+            "Soort": 105
+        },
+        {
+            "Categorie": 5,
+            "ContentType": 1,
+            "Id": "1279d586-6290-4c8b-a6dc-a75c2fc73808",
+            "IndexNumber": 7,
+            "MediaItems": [
+                {
+                    "Category": 23,
+                    "Height": 0,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/878.xml",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/878.xml",
+                    "Width": 0
+                },
+                {
+                    "Category": 24,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/878_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/878_klein.jpg",
+                    "Width": 160
+                },
+                {
+                    "Category": 25,
+                    "Height": 160,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/878_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/878_middel.jpg",
+                    "Width": 320
+                }
+            ],
+            "Metadata": "<Foto360 xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><Name>Badkamer</Name><Filename>07-360-0012121 .jpg</Filename><ViewAngle>0</ViewAngle><Spots><Spot><Id>1</Id><Type>hotspot</Type><Destination>d9e2ec84-537d-431b-8213-b01847323ba4</Destination><MediaGuid>00000000-0000-0000-0000-000000000000</MediaGuid><PositionX>-125.23687303725171</PositionX><PositionY>37.143707907955552</PositionY></Spot></Spots><TileInfo><ImageSize>512</ImageSize><Levels><Level><Number>2</Number><TileSizeHeight>1711</TileSizeHeight><TileSizeWidth>1711</TileSizeWidth></Level><Level><Number>1</Number><TileSizeHeight>856</TileSizeHeight><TileSizeWidth>856</TileSizeWidth></Level></Levels></TileInfo><Original><Width>5376</Width><Height>2688</Height></Original></Foto360>",
+            "Omschrijving": "badkamer",
+            "RegistratieVerplicht": false,
+            "Soort": 105
+        },
+        {
+            "Categorie": 5,
+            "ContentType": 1,
+            "Id": "23aa4697-9539-4dfa-ba15-f64924067e52",
+            "IndexNumber": 8,
+            "MediaItems": [
+                {
+                    "Category": 23,
+                    "Height": 0,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/879.xml",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/879.xml",
+                    "Width": 0
+                },
+                {
+                    "Category": 24,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/879_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/879_klein.jpg",
+                    "Width": 160
+                },
+                {
+                    "Category": 25,
+                    "Height": 160,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/879_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/879_middel.jpg",
+                    "Width": 320
+                }
+            ],
+            "Metadata": "<Foto360 xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><Name>Slaapkamer</Name><Filename>08-360-0012123 .jpg</Filename><ViewAngle>0</ViewAngle><Spots><Spot><Id>1</Id><Type>hotspot</Type><Destination>d9e2ec84-537d-431b-8213-b01847323ba4</Destination><MediaGuid>00000000-0000-0000-0000-000000000000</MediaGuid><PositionX>-16.763223257624418</PositionX><PositionY>28.288383032527218</PositionY></Spot></Spots><TileInfo><ImageSize>512</ImageSize><Levels><Level><Number>2</Number><TileSizeHeight>1711</TileSizeHeight><TileSizeWidth>1711</TileSizeWidth></Level><Level><Number>1</Number><TileSizeHeight>856</TileSizeHeight><TileSizeWidth>856</TileSizeWidth></Level></Levels></TileInfo><Original><Width>5376</Width><Height>2688</Height></Original></Foto360>",
+            "Omschrijving": "slaapkamer",
+            "RegistratieVerplicht": false,
+            "Soort": 105
+        },
+        {
+            "Categorie": 5,
+            "ContentType": 1,
+            "Id": "fc0e8112-d847-4456-a360-0b731f3c318c",
+            "IndexNumber": 9,
+            "MediaItems": [
+                {
+                    "Category": 23,
+                    "Height": 0,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/880.xml",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/880.xml",
+                    "Width": 0
+                },
+                {
+                    "Category": 24,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/880_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/880_klein.jpg",
+                    "Width": 160
+                },
+                {
+                    "Category": 25,
+                    "Height": 160,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/880_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/880_middel.jpg",
+                    "Width": 320
+                }
+            ],
+            "Metadata": "<Foto360 xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><Name>Slaapkamer</Name><Filename>09-360-0012122 .jpg</Filename><ViewAngle>0</ViewAngle><Spots><Spot><Id>1</Id><Type>hotspot</Type><Destination>d9e2ec84-537d-431b-8213-b01847323ba4</Destination><MediaGuid>00000000-0000-0000-0000-000000000000</MediaGuid><PositionX>-133.71301439855739</PositionX><PositionY>36.2665670330203</PositionY></Spot></Spots><TileInfo><ImageSize>512</ImageSize><Levels><Level><Number>2</Number><TileSizeHeight>1711</TileSizeHeight><TileSizeWidth>1711</TileSizeWidth></Level><Level><Number>1</Number><TileSizeHeight>856</TileSizeHeight><TileSizeWidth>856</TileSizeWidth></Level></Levels></TileInfo><Original><Width>5376</Width><Height>2688</Height></Original></Foto360>",
+            "Omschrijving": "slaapkamer",
+            "RegistratieVerplicht": false,
+            "Soort": 105
+        },
+        {
+            "Categorie": 5,
+            "ContentType": 1,
+            "Id": "9ada3eaa-c22c-47ee-84a8-9c630ef0a215",
+            "IndexNumber": 10,
+            "MediaItems": [
+                {
+                    "Category": 23,
+                    "Height": 0,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/881.xml",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/881.xml",
+                    "Width": 0
+                },
+                {
+                    "Category": 24,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/881_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/881_klein.jpg",
+                    "Width": 160
+                },
+                {
+                    "Category": 25,
+                    "Height": 160,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/881_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/881_middel.jpg",
+                    "Width": 320
+                }
+            ],
+            "Metadata": "<Foto360 xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><Name>Overloop</Name><Filename>10-360-0012126 .jpg</Filename><ViewAngle>80.093091388681</ViewAngle><Spots><Spot><Id>1</Id><Type>hotspot</Type><Destination>d9e2ec84-537d-431b-8213-b01847323ba4</Destination><MediaGuid>00000000-0000-0000-0000-000000000000</MediaGuid><PositionX>41.0654261276088</PositionX><PositionY>45.954419870852</PositionY></Spot><Spot><Id>2</Id><Type>hotspot</Type><Destination>72460a35-da42-4aa1-8746-3692033b9cc2</Destination><MediaGuid>00000000-0000-0000-0000-000000000000</MediaGuid><PositionX>-99.906908611319</PositionX><PositionY>-2.44644222878317</PositionY></Spot></Spots><TileInfo><ImageSize>512</ImageSize><Levels><Level><Number>2</Number><TileSizeHeight>1711</TileSizeHeight><TileSizeWidth>1711</TileSizeWidth></Level><Level><Number>1</Number><TileSizeHeight>856</TileSizeHeight><TileSizeWidth>856</TileSizeWidth></Level></Levels></TileInfo><Original><Width>5376</Width><Height>2688</Height></Original></Foto360>",
+            "Omschrijving": "overloop",
+            "RegistratieVerplicht": false,
+            "Soort": 105
+        },
+        {
+            "Categorie": 5,
+            "ContentType": 1,
+            "Id": "72460a35-da42-4aa1-8746-3692033b9cc2",
+            "IndexNumber": 11,
+            "MediaItems": [
+                {
+                    "Category": 23,
+                    "Height": 0,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/882.xml",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/882.xml",
+                    "Width": 0
+                },
+                {
+                    "Category": 24,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/882_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/882_klein.jpg",
+                    "Width": 160
+                },
+                {
+                    "Category": 25,
+                    "Height": 160,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/882_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/882_middel.jpg",
+                    "Width": 320
+                }
+            ],
+            "Metadata": "<Foto360 xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><Name>Slaapkamer</Name><Filename>11-360-0012125 .jpg</Filename><ViewAngle>0</ViewAngle><Spots><Spot><Id>1</Id><Type>hotspot</Type><Destination>9ada3eaa-c22c-47ee-84a8-9c630ef0a215</Destination><MediaGuid>00000000-0000-0000-0000-000000000000</MediaGuid><PositionX>33.110003000572249</PositionX><PositionY>3.6673869670523866</PositionY></Spot></Spots><TileInfo><ImageSize>512</ImageSize><Levels><Level><Number>2</Number><TileSizeHeight>1711</TileSizeHeight><TileSizeWidth>1711</TileSizeWidth></Level><Level><Number>1</Number><TileSizeHeight>856</TileSizeHeight><TileSizeWidth>856</TileSizeWidth></Level></Levels></TileInfo><Original><Width>5376</Width><Height>2688</Height></Original></Foto360>",
+            "Omschrijving": "slaapkamer",
+            "RegistratieVerplicht": false,
+            "Soort": 105
+        },
+        {
+            "Categorie": 5,
+            "ContentType": 1,
+            "Id": "818afd68-aea8-4e3a-ac33-b328e6ff8ef5",
+            "IndexNumber": 12,
+            "MediaItems": [
+                {
+                    "Category": 23,
+                    "Height": 0,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/883.xml",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/883.xml",
+                    "Width": 0
+                },
+                {
+                    "Category": 24,
+                    "Height": 80,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/883_klein.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/883_klein.jpg",
+                    "Width": 160
+                },
+                {
+                    "Category": 25,
+                    "Height": 160,
+                    "Url": "http://cloud.funda.nl/valentina_media/153/774/883_middel.jpg",
+                    "UrlSecure": "http://cloud.funda.nl/valentina_media/153/774/883_middel.jpg",
+                    "Width": 320
+                }
+            ],
+            "Metadata": "<Foto360 xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><Name>Achtertuin</Name><Filename>12-360-0012130 .jpg</Filename><ViewAngle>0</ViewAngle><Spots><Spot><Id>1</Id><Type>hotspot</Type><Destination>b4229fa1-6d34-4b35-9a01-61447829d051</Destination><MediaGuid>00000000-0000-0000-0000-000000000000</MediaGuid><PositionX>175.85451214157058</PositionX><PositionY>3.6903035664030264</PositionY></Spot></Spots><TileInfo><ImageSize>512</ImageSize><Levels><Level><Number>2</Number><TileSizeHeight>1711</TileSizeHeight><TileSizeWidth>1711</TileSizeWidth></Level><Level><Number>1</Number><TileSizeHeight>856</TileSizeHeight><TileSizeWidth>856</TileSizeWidth></Level></Levels></TileInfo><Original><Width>5376</Width><Height>2688</Height></Original></Foto360>",
+            "Omschrijving": "achtertuin",
+            "RegistratieVerplicht": false,
+            "Soort": 105
+        }
+    ],
+    "Media-Foto": [
+        "http://cloud.funda.nl/valentina_media/153/774/809_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/824_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/801_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/803_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/805_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/825_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/831_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/836_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/802_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/830_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/818_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/852_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/810_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/832_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/819_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/807_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/833_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/813_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/804_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/860_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/814_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/862_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/815_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/808_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/854_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/856_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/853_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/806_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/858_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/811_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/812_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/846_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/820_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/855_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/834_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/816_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/857_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/835_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/822_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/821_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/861_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/837_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/823_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/838_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/817_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/827_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/845_klein.jpg",
+        "http://cloud.funda.nl/valentina_media/153/774/863_klein.jpg"
+    ],
+    "MobileURL": "https://m.funda.nl/koop/poortugaal/huis-88037755-meidoorn-37/",
+    "ObjectType": "woonhuis",
+    "ObjectTypeMetVoorvoegsel": "deze woning",
+    "OpenHuizen": [],
+    "PerceelOppervlakte": 170,
+    "PermanenteBewoning": "permanente bewoning is toegestaan",
+    "Plaats": "Poortugaal",
+    "Postcode": "3171NB",
+    "Prijs": {
+        "GeenExtraKosten": null,
+        "HuurAbbreviation": "",
+        "Huurprijs": null,
+        "HuurprijsOpAanvraag": "",
+        "HuurprijsTot": null,
+        "KoopAbbreviation": "k.k.",
+        "Koopprijs": 348000,
+        "KoopprijsOpAanvraag": "",
+        "KoopprijsTot": null,
+        "OriginelePrijs": null,
+        "VeilingText": ""
+    },
+    "PrijsGeformatteerd": "<span class=\"price-wrapper\"><span class=\"price\">&euro;&nbsp;348.000</span> <abbr class=\"price-ext\">k.k.</abbr></span>",
+    "Project": null,
+    "ProjectNaam": null,
+    "PublicatieDatum": "/Date(1642234455000+0100)/",
+    "PublicatieStatus": 0,
+    "SchuurBerging": "aangebouwde stenen berging",
+    "SchuurBergingIsolatie": null,
+    "SchuurBergingVoorzieningen": "elektra",
+    "ScrambledId": "88037755",
+    "ServiceKosten": 0,
+    "SoortAanbod": 10,
+    "SoortDak": "zadeldak bedekt met dakpannen",
+    "SoortGarage": "eengezinswoning, hoekwoning",
+    "SoortParkeergelegenheid": "eengezinswoning, hoekwoning",
+    "SoortPlaatsing": 0,
+    "SoortWoning": "eengezinswoning, hoekwoning",
+    "Titels": [
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal",
+            "Pagina": 0
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - Omschrijving",
+            "Pagina": 1
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - Kenmerken",
+            "Pagina": 2
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - Foto's",
+            "Pagina": 3
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - Buurtinformatie",
+            "Pagina": 4
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - Foto's",
+            "Pagina": 5
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - Kaart",
+            "Pagina": 6
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - Hypotheek",
+            "Pagina": 7
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - Print",
+            "Pagina": 8
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - 360&deg; foto's",
+            "Pagina": 9
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - Video",
+            "Pagina": 10
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - Plattegrond",
+            "Pagina": 11
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - Slideshow",
+            "Pagina": 12
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - Reageer",
+            "Pagina": 13
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - Bezichtiging",
+            "Pagina": 14
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - Brochure",
+            "Pagina": 15
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - Voorwaarden",
+            "Pagina": 16
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - Openhuis",
+            "Pagina": 17
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - Doorsturen",
+            "Pagina": 18
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - Routeplanner",
+            "Pagina": 19
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - Kadaster",
+            "Pagina": 20
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - Overbruggingsgarantie",
+            "Pagina": 21
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - CarrouselBanner",
+            "Pagina": 22
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - Carrousel",
+            "Pagina": 23
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - MeldEenFout",
+            "Pagina": 24
+        },
+        {
+            "Omschrijving": "Huis te koop: Meidoorn 37 3171 NB Poortugaal - Woningtypen",
+            "Pagina": 25
+        }
+    ],
+    "ToonBezichtigingMaken": true,
+    "ToonBrochureAanvraag": true,
+    "ToonMakelaarWoningaanbod": true,
+    "ToonReageren": true,
+    "TransactieAfmeldDatum": null,
+    "TransactieMakelaarId": null,
+    "TransactieMakelaarNaam": null,
+    "TuinLigging": "gelegen op het zuiden bereikbaar via achterom",
+    "TypeProject": 0,
+    "URL": "http://www.funda.nl/koop/poortugaal/huis-88037755-meidoorn-37/",
+    "Veiling": {
+        "EindDatum": null,
+        "Link": null,
+        "StartDatum": null,
+        "VeilingPartij": null
+    },
+    "VerkoopStatus": "Beschikbaar",
+    "Verwarming": "C.V.-ketel en vloerverwarming geheel",
+    "Video": {
+        "ImageUrl": "http://quadia.webtvframework.com/funda/video/_function/attribute.image.retrieve?id=7059306",
+        "QuadiaVideoId": 7059306,
+        "ThumbnailUrl": "http://quadia.webtvframework.com/funda/video/_function/attribute.image.retrieve?id=7059306",
+        "Videos": [
+            {
+                "BitRate": 698001,
+                "Cdns": [
+                    {
+                        "DeliveryType": "download",
+                        "FileType": null,
+                        "MimeType": "application/x-mpegurl",
+                        "SslUrl": null,
+                        "Url": "http://d1jqky4nt0kbou.cloudfront.net/qwtv^8529660819421445429.mp4"
+                    },
+                    {
+                        "DeliveryType": "download",
+                        "FileType": null,
+                        "MimeType": "video/x-m4v",
+                        "SslUrl": null,
+                        "Url": "https://d1jqky4nt0kbou.cloudfront.net/qwtv^8529660819421445429.mp4"
+                    },
+                    {
+                        "DeliveryType": "streaming",
+                        "FileType": null,
+                        "MimeType": "video/x-m4v",
+                        "SslUrl": null,
+                        "Url": "rtmp://s3fgw58uk282ub.cloudfront.net/cfx/st/qwtv^8529660819421445429.mp4"
+                    }
+                ],
+                "HasAudio": true,
+                "HasVideo": true,
+                "IsSource": false,
+                "Stream": {
+                    "AverageBitRate": 601965,
+                    "Height": 360,
+                    "Width": 640
+                },
+                "Url": "http://quadia-nfs.s3-eu-west-1.amazonaws.com/1_9520361.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAI266JGP4WRVGDWOA%2F20220116%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20220116T090608Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&X-Amz-Signature=ad3da2b3ca1553e550864c97432a6ad459e010ce7ea89d4f8bbc37f15806c6e8"
+            },
+            {
+                "BitRate": 1396071,
+                "Cdns": [
+                    {
+                        "DeliveryType": "download",
+                        "FileType": null,
+                        "MimeType": "application/x-mpegurl",
+                        "SslUrl": null,
+                        "Url": "http://d1jqky4nt0kbou.cloudfront.net/qwtv^8529660819421445431.mp4"
+                    },
+                    {
+                        "DeliveryType": "download",
+                        "FileType": null,
+                        "MimeType": "video/x-m4v",
+                        "SslUrl": null,
+                        "Url": "https://d1jqky4nt0kbou.cloudfront.net/qwtv^8529660819421445431.mp4"
+                    },
+                    {
+                        "DeliveryType": "streaming",
+                        "FileType": null,
+                        "MimeType": "video/x-m4v",
+                        "SslUrl": null,
+                        "Url": "rtmp://s3fgw58uk282ub.cloudfront.net/cfx/st/qwtv^8529660819421445431.mp4"
+                    }
+                ],
+                "HasAudio": true,
+                "HasVideo": true,
+                "IsSource": false,
+                "Stream": {
+                    "AverageBitRate": 1268042,
+                    "Height": 576,
+                    "Width": 1024
+                },
+                "Url": "http://quadia-nfs.s3-eu-west-1.amazonaws.com/1_9520362.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAI266JGP4WRVGDWOA%2F20220116%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20220116T090608Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&X-Amz-Signature=f8d0f29f864c452f8612ca042539ba127405d4c88bf3670d5b262f34a6233ed8"
+            },
+            {
+                "BitRate": 2393269,
+                "Cdns": [
+                    {
+                        "DeliveryType": "download",
+                        "FileType": null,
+                        "MimeType": "application/x-mpegurl",
+                        "SslUrl": null,
+                        "Url": "http://d1jqky4nt0kbou.cloudfront.net/qwtv^8529660819421445433.mp4"
+                    },
+                    {
+                        "DeliveryType": "download",
+                        "FileType": null,
+                        "MimeType": "video/x-m4v",
+                        "SslUrl": null,
+                        "Url": "https://d1jqky4nt0kbou.cloudfront.net/qwtv^8529660819421445433.mp4"
+                    },
+                    {
+                        "DeliveryType": "streaming",
+                        "FileType": null,
+                        "MimeType": "video/x-m4v",
+                        "SslUrl": null,
+                        "Url": "rtmp://s3fgw58uk282ub.cloudfront.net/cfx/st/qwtv^8529660819421445433.mp4"
+                    }
+                ],
+                "HasAudio": true,
+                "HasVideo": true,
+                "IsSource": false,
+                "Stream": {
+                    "AverageBitRate": 2265240,
+                    "Height": 720,
+                    "Width": 1280
+                },
+                "Url": "http://quadia-nfs.s3-eu-west-1.amazonaws.com/1_9520363.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAI266JGP4WRVGDWOA%2F20220116%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20220116T090608Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&X-Amz-Signature=10716892a57376470e70f9dd80253eb49f3f3fac38f02676369c65143d687ac9"
+            }
+        ]
+    },
+    "VolledigeOmschrijving": "In de gezellige en makkelijk bereikbare en kindvriendelijke woonwijk 'Plan Zuid' bieden wij u deze nette en ruime hoekwoning aan! De belangrijkste kenmerken zijn wellicht de eigen oprit voor meerdere auto’s, de achtertuin op het zuiden, 4 slaapkamers , ruime badkamer en het nabijgelegen speelveld. Op fiets/loopafstand van de dorpskern van Poortugaal, scholen, kinderdagverblijf, sportverenigingen en openbaar vervoer.\n\nType woning:\t\t\thoekwoning \nBerging:\t\t\t\tstenen berging aan de voorzijde van de woning , 6 m2\nGrond:\t\t\t\t170 m2 eigen grond\nWoonoppervlakte:\t\t112 m2\nInhoud:\t\t\t\tcirca 400 m3\nBouwjaar:\t\t\t1984\nAantal slaapkamers:\t4 \nLigging tuin:\t\t\tachter zuidoost, \nEnergielabel:\t\t\tD\nOplevering:\t\t\tin onderling overleg / indicatie omstreeks begin juli 2022\n\nBegane grond:\nEntree hal welke toegang geeft  tot de meterkast (5 groepen) de garderobe, het toilet met handwasbakje, de trapopgang naar de 1everdieping en via een glasdeur toegang tot de woonkamer. De gezellig tuin-gerichte woonkamer is netjes afgewerkt en is voorzien van een trap/bergkast, spachtelputz wanden en geeft toegang tot de zonnige achtertuin via openslaande tuindeuren. De keuken is gelegen aan de voorzijde van de woning en is voorzien van een kunststof keukenblok in hoekopstelling, met o.a. een koel/vries-combinatie, een combimagnetron, een 5-pits gasfornuis, een afzuigkap en uiteraard een vaatwasser. De nette geheel betegelde tuin is gelegen op het zonnige zuiden en is voorzien van degelijke schuttingen, en heeft een zijingang. Aan de achtergevel hangt een zonnescherm. De gehele begane grond is voorzien van een tegelvloer en een 2 groeps vloerverwarming.\n\n1e etage:\nDe overloop met trapopgang naar de 2e etage en toegang tot de drie slaapkamers en de badkamer. De   2 slaapkamers aan de achterzijde waarvan 1 kamer is voorzien van een dakraam en 1 kamers is voorzien van een hoek-dakkapel, de slaapkamer aan de voorzijde heeft een rechte geveloptrek. Alle kamers zijn netjes afgewerkt en voorzien van een laminaatvloer. De badkamer is ruim te noemen en biedt dan ook voldoende plek voor een douchecabine, een 2e toilet, alsmede een wastafel met glazen planchet, een  designradiator en een raam voor ventilatie en daglicht. \n\n2e etage:\nDe  4e slaap/hobbykamer heeft een Velux dakraam en is voorzien van een laminaatvloer, toegang tot het washok met wasmachine/droger aansluiting en de cv combiketel “Vaillant” bj. 2015, en de mech.afzuiging.\n\nAlgemeen:\nDe geheel betegelde voortuin met parkeren eigen erf voor meerdere auto’s en toegang tot de stenen   berging welke is voorzien van elektra;\nAchterzijde begane grond is voorzien van een zonnescherm;\nHet schilderwerk buitenzijde is in 2017 uitgevoerd;\nDe woning is volledig voorzien van hardhouten kozijnen met dubbele beglazing;\nOplevering in onderling overleg/ ca. juli 2022.\n\nVBW behartigt de belangen van de verkopende partij.\nNeem uw eigen aankoopmakelaar mee!\nBezichtiging: Alléén na een via ons kantoor gemaakte afspraak.\n\nHoewel deze verkoop tekst (met bijbehorende tekeningen) met uiterste zorg is samengesteld, kan zij onjuistheden bevatten. Aan deze onjuistheden kunnen geen rechten worden ontleend.",
+    "Voorzieningen": "buitenzonwering, dakraam, glasvezelkabel, mechanische ventilatie en <{natuurlijke ventilatie}>",
+    "WGS84_X": 4.40115,
+    "WGS84_Y": 51.8523521,
+    "WarmWater": "C.V.-ketel",
+    "WoonOppervlakte": 112,
+    "EersteHuurPrijs": null,
+    "EersteHuurPrijsLang": null,
+    "EersteKoopPrijs": null,
+    "EersteKoopPrijsLang": null,
+    "HuurPrijs": null,
+    "HuurPrijsLang": null,
+    "HuurPrijsTot": null,
+    "Huurprijs": null,
+    "HuurprijsFormaat": null,
+    "KoopPrijs": 348000,
+    "KoopPrijsLang": "<[KoopPrijs]> <{kosten koper|lang}>",
+    "Koopprijs": 348000,
+    "KoopprijsFormaat": "<[KoopPrijs]> <{kosten koper|kort}>",
+    "KoopprijsTot": null,
+    "ShortURL": "http://funda.nl/88037755",
+    "Tuin": "achtertuin, voortuin en zijtuin",
+    "VeilingGeformatteerd": null
+}

@@ -32,8 +32,10 @@ class EstateDetail {
   dynamic afgekochtDatum;
   String? balkonDakterras;
   dynamic bedrijfsruimteCombinatieObject;
-  List<SeeingDayPart>? bezichtingDagdelen;
-  List<ViewDays>? bezichtingDagen;
+  //bezichtingDagdelen
+  List<SeeingDayPart>? seeingDayParts;
+  //viewDays
+  List<ViewDays>? viewDays;
   dynamic bijdrageVve;
   dynamic bijzonderheden;
   //bouwjaar
@@ -79,12 +81,15 @@ class EstateDetail {
   dynamic kenmerkenTitel;
   String? locationTitle;
   String? mliUrl;
+  //Makelaar
   String? agentName;
+  //MakelaarId
   int? agentId;
+  //MakelaarTelefoon
   String? agentPhone;
   List<dynamic>? medeAanbieders;
   List<Media>? media;
-  List<String>? mediaPhotos;
+  List<dynamic>? mediaPhotos;
   String? mobileUrl;
   String? objectType;
   String? objectTypeMetVoorvoegsel;
@@ -171,8 +176,8 @@ class EstateDetail {
     this.afgekochtDatum,
     this.balkonDakterras,
     this.bedrijfsruimteCombinatieObject,
-    this.bezichtingDagdelen,
-    this.bezichtingDagen,
+    this.seeingDayParts,
+    this.viewDays,
     this.bijdrageVve,
     this.bijzonderheden,
     this.constructionYear,
@@ -300,10 +305,10 @@ class EstateDetail {
         balkonDakterras: data['BalkonDakterras'] as String?,
         bedrijfsruimteCombinatieObject:
             data['BedrijfsruimteCombinatieObject'] as dynamic,
-        bezichtingDagdelen: (data['BezichtingDagdelen'] as List<dynamic>?)
+        seeingDayParts: (data['BezichtingDagdelen'] as List<dynamic>?)
             ?.map((e) => SeeingDayPart.fromMap(e as Map<String, dynamic>))
             .toList(),
-        bezichtingDagen: (data['BezichtingDagen'] as List<dynamic>?)
+        viewDays: (data['BezichtingDagen'] as List<dynamic>?)
             ?.map((e) => ViewDays.fromMap(e as Map<String, dynamic>))
             .toList(),
         bijdrageVve: data['BijdrageVVE'] as dynamic,
@@ -366,7 +371,7 @@ class EstateDetail {
         media: (data['Media'] as List<dynamic>?)
             ?.map((e) => Media.fromMap(e as Map<String, dynamic>))
             .toList(),
-        mediaPhotos: data['Media-Foto'] as List<String>?,
+        mediaPhotos: data['Media-Foto'] as List<dynamic>?,
         mobileUrl: data['MobileURL'] as String?,
         objectType: data['ObjectType'] as String?,
         objectTypeMetVoorvoegsel: data['ObjectTypeMetVoorvoegsel'] as String?,
@@ -453,9 +458,8 @@ class EstateDetail {
         'AfgekochtDatum': afgekochtDatum,
         'BalkonDakterras': balkonDakterras,
         'BedrijfsruimteCombinatieObject': bedrijfsruimteCombinatieObject,
-        'BezichtingDagdelen':
-            bezichtingDagdelen?.map((e) => e.toMap()).toList(),
-        'BezichtingDagen': bezichtingDagen?.map((e) => e.toMap()).toList(),
+        'BezichtingDagdelen': seeingDayParts?.map((e) => e.toMap()).toList(),
+        'BezichtingDagen': viewDays?.map((e) => e.toMap()).toList(),
         'BijdrageVVE': bijdrageVve,
         'Bijzonderheden': bijzonderheden,
         'Bouwjaar': constructionYear,

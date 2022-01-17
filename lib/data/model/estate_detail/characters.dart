@@ -2,7 +2,6 @@ import 'dart:convert';
 
 import 'inner_character.dart';
 
-
 class Character {
   dynamic ad;
   List<InnerCharacter>? characters;
@@ -24,7 +23,9 @@ class Character {
             ?.map((e) => InnerCharacter.fromMap(e as Map<String, dynamic>))
             .toList(),
         lokNummer: data['LokNummer'] as int?,
-        subCharacter:Character.fromMap(data['SubKenmerk']),
+        subCharacter: data['SubKenmerk'] == null
+            ? null
+            : Character.fromMap(data['SubKenmerk']!),
         titel: data['Titel'] as String?,
       );
 

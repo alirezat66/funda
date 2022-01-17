@@ -18,7 +18,7 @@ class Video {
         imageUrl: data['ImageUrl'] as String?,
         quadiaVideoId: data['QuadiaVideoId'] as int?,
         thumbnailUrl: data['ThumbnailUrl'] as String?,
-        videos: (data['Videos'] as List<InnerVideo>?)
+        videos: (data['Videos'] as List<dynamic>?)
             ?.map((e) => InnerVideo.fromMap(e as Map<String, dynamic>))
             .toList(),
       );
