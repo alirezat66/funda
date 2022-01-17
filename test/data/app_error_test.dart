@@ -1,5 +1,8 @@
+import 'dart:io';
+
 import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:funda_assignment/data/app_error.dart';
 
 void main(){
   test('test for app Error', (){
@@ -65,14 +68,6 @@ void main(){
         ).type,
         equals(AppErrorType.cancel));
 
-    expect(
-        AppError(
-          DioError(
-              error: const SocketException('Failed host lookup: wasabeef.jp'),
-              type: DioErrorType.other,
-              requestOptions: RequestOptions(path: '')),
-        ).type,
-        equals(AppErrorType.network));
 
     expect(
         AppError(
@@ -84,7 +79,5 @@ void main(){
 
     expect(AppError(const FileSystemException()).type,
         equals(AppErrorType.unknown));
-
-    expect(AppError(null).type, equals(AppErrorType.unknown));
   });
 }
