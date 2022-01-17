@@ -1,13 +1,13 @@
 import 'dart:convert';
 
-class Stream {
+class EstateStream {
   int? averageBitRate;
   int? height;
   int? width;
 
-  Stream({this.averageBitRate, this.height, this.width});
+  EstateStream({this.averageBitRate, this.height, this.width});
 
-  factory Stream.fromMap(Map<String, dynamic> data) => Stream(
+  factory EstateStream.fromMap(Map<String, dynamic> data) => EstateStream(
         averageBitRate: data['AverageBitRate'] as int?,
         height: data['Height'] as int?,
         width: data['Width'] as int?,
@@ -21,13 +21,13 @@ class Stream {
 
   /// `dart:convert`
   ///
-  /// Parses the string and returns the resulting Json object as [Stream].
-  factory Stream.fromJson(String data) {
-    return Stream.fromMap(json.decode(data) as Map<String, dynamic>);
+  /// Parses the string and returns the resulting Json object as [EstateStream].
+  factory EstateStream.fromJson(String data) {
+    return EstateStream.fromMap(json.decode(data) as Map<String, dynamic>);
   }
 
   /// `dart:convert`
   ///
-  /// Converts [Stream] to a JSON string.
+  /// Converts [EstateStream] to a JSON string.
   String toJson() => json.encode(toMap());
 }

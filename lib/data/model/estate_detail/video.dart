@@ -1,9 +1,11 @@
 import 'dart:convert';
+
+import 'package:funda_assignment/data/model/estate_detail/inner_video.dart';
 class Video {
   String? imageUrl;
   int? quadiaVideoId;
   String? thumbnailUrl;
-  List<Video>? videos;
+  List<InnerVideo>? videos;
 
   Video({
     this.imageUrl,
@@ -16,8 +18,8 @@ class Video {
         imageUrl: data['ImageUrl'] as String?,
         quadiaVideoId: data['QuadiaVideoId'] as int?,
         thumbnailUrl: data['ThumbnailUrl'] as String?,
-        videos: (data['Videos'] as List<dynamic>?)
-            ?.map((e) => Video.fromMap(e as Map<String, dynamic>))
+        videos: (data['Videos'] as List<InnerVideo>?)
+            ?.map((e) => InnerVideo.fromMap(e as Map<String, dynamic>))
             .toList(),
       );
 

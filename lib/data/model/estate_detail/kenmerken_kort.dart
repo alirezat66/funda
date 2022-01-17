@@ -1,10 +1,10 @@
 import 'dart:convert';
 
-import 'kenmerken.dart';
+import 'characters.dart';
 
 class KenmerkenKort {
   dynamic ad;
-  List<Kenmerken>? kenmerken;
+  List<Character>? kenmerken;
   int? lokNummer;
   dynamic subKenmerk;
   dynamic titel;
@@ -20,7 +20,7 @@ class KenmerkenKort {
   factory KenmerkenKort.fromMap(Map<String, dynamic> data) => KenmerkenKort(
         ad: data['Ad'] as dynamic,
         kenmerken: (data['Kenmerken'] as List<dynamic>?)
-            ?.map((e) => Kenmerken.fromMap(e as Map<String, dynamic>))
+            ?.map((e) => Character.fromMap(e as Map<String, dynamic>))
             .toList(),
         lokNummer: data['LokNummer'] as int?,
         subKenmerk: data['SubKenmerk'] as dynamic,

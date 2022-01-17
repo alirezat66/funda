@@ -1,34 +1,43 @@
 import 'dart:convert';
 
-import 'bezichting_dagdelen.dart';
-import 'bezichting_dagen.dart';
+import 'seeing_day_parts.dart';
+import 'view_days.dart';
 import 'detail_info.dart';
 import 'energielabel.dart';
-import 'kenmerken.dart';
+import 'characters.dart';
 import 'kenmerken_kort.dart';
 import 'media.dart';
-import 'prijs.dart';
+import 'price.dart';
 import 'titel.dart';
 import 'veiling.dart';
 import 'video.dart';
 
 class EstateDetail {
   String? aangebodenSinds;
-  String? aangebodenSindsTekst;
-  int? aantalBadkamers;
-  int? aantalKamers;
+  //aangebodenSindsTekst
+  String? offeredSinceText;
+  //aantalBadkamers
+  int? numberOfBathrooms;
+  //aantalKamers
+  int? numberOfRooms;
   dynamic aantalSlaapkamers;
   String? aantalWoonlagen;
+  int get numberOfBedRooms {
+    return numberOfRooms! - numberOfBathrooms!;
+  }
+
   String? aanvaarding;
-  String? adres;
+  //adres
+  String? address;
   dynamic afgekochtDatum;
   String? balkonDakterras;
   dynamic bedrijfsruimteCombinatieObject;
-  List<BezichtingDagdelen>? bezichtingDagdelen;
-  List<BezichtingDagen>? bezichtingDagen;
+  List<SeeingDayPart>? bezichtingDagdelen;
+  List<ViewDays>? bezichtingDagen;
   dynamic bijdrageVve;
   dynamic bijzonderheden;
-  String? bouwjaar;
+  //bouwjaar
+  String? constructionYear;
   String? bouwvorm;
   String? bronCode;
   dynamic contactpersoonEmail;
@@ -40,51 +49,58 @@ class EstateDetail {
   dynamic eigendomsSituatie;
   Energielabel? energielabel;
   dynamic erfpachtBedrag;
-  dynamic garage;
+  String? garage;
   dynamic garageIsolatie;
   dynamic garageVoorzieningen;
   dynamic gelegenOp;
   String? gewijzigdDatum;
-  String? hoofdFoto;
-  String? hoofdFotoSecure;
-  String? hoofdTuinType;
+  String? mainPhoto;
+  String? mainPhotoSource;
+  //HoofdTuinType
+  String? gardenType;
   int? id;
-  bool? indBasisPlaatsing;
-  bool? indFotos;
-  bool? indIpix;
+  bool? hasBasePlacement;
+  bool? hasPhotos;
+  bool? hasIpix;
   bool? indOpenhuizenTopper;
   bool? indPdf;
-  bool? indPlattegrond;
+  bool? hasMap;
   bool? indTop;
   bool? indVeilingProduct;
-  bool? indVideo;
+  bool? hasVideo;
   int? inhoud;
   String? internalId;
   bool? isIngetrokken;
   bool? isVerhuurd;
   bool? isVerkocht;
   String? isolatie;
-  List<Kenmerken>? kenmerken;
+  List<Character>? characteristics;
   KenmerkenKort? kenmerkenKort;
   dynamic kenmerkenTitel;
-  String? ligging;
+  String? locationTitle;
   String? mliUrl;
-  String? makelaar;
-  int? makelaarId;
-  String? makelaarTelefoon;
+  String? agentName;
+  int? agentId;
+  String? agentPhone;
   List<dynamic>? medeAanbieders;
   List<Media>? media;
-  List<String>? mediaFoto;
+  List<String>? mediaPhotos;
   String? mobileUrl;
   String? objectType;
   String? objectTypeMetVoorvoegsel;
   List<dynamic>? openHuizen;
-  int? perceelOppervlakte;
+  //perceelOppervlakte
+  int? plotArea;
   String? permanenteBewoning;
-  String? plaats;
+  //plaats
+  String? place;
   String? postcode;
-  Prijs? prijs;
-  String? prijsGeformatteerd;
+  String get detailAddress {
+    return '$postcode $place';
+  }
+
+  Price? price;
+  String? formatedPrice;
   dynamic project;
   dynamic projectNaam;
   String? publicatieDatum;
@@ -115,12 +131,16 @@ class EstateDetail {
   String? verkoopStatus;
   String? verwarming;
   Video? video;
-  String? volledigeOmschrijving;
+  //volledigeOmschrijving
+  String? fullDescription;
   String? voorzieningen;
-  double? wgs84X;
-  double? wgs84Y;
+  //wgs84X
+  double? longitude;
+  //wgs84Y
+  double? latitude;
   String? warmWater;
-  int? woonOppervlakte;
+  //woonOppervlakte
+  int? resedentialArea;
   dynamic eersteHuurPrijs;
   dynamic eersteHuurPrijsLang;
   dynamic eersteKoopPrijs;
@@ -141,13 +161,13 @@ class EstateDetail {
 
   EstateDetail({
     this.aangebodenSinds,
-    this.aangebodenSindsTekst,
-    this.aantalBadkamers,
-    this.aantalKamers,
+    this.offeredSinceText,
+    this.numberOfBathrooms,
+    this.numberOfRooms,
     this.aantalSlaapkamers,
     this.aantalWoonlagen,
     this.aanvaarding,
-    this.adres,
+    this.address,
     this.afgekochtDatum,
     this.balkonDakterras,
     this.bedrijfsruimteCombinatieObject,
@@ -155,7 +175,7 @@ class EstateDetail {
     this.bezichtingDagen,
     this.bijdrageVve,
     this.bijzonderheden,
-    this.bouwjaar,
+    this.constructionYear,
     this.bouwvorm,
     this.bronCode,
     this.contactpersoonEmail,
@@ -172,46 +192,46 @@ class EstateDetail {
     this.garageVoorzieningen,
     this.gelegenOp,
     this.gewijzigdDatum,
-    this.hoofdFoto,
-    this.hoofdFotoSecure,
-    this.hoofdTuinType,
+    this.mainPhoto,
+    this.mainPhotoSource,
+    this.gardenType,
     this.id,
-    this.indBasisPlaatsing,
-    this.indFotos,
-    this.indIpix,
+    this.hasBasePlacement,
+    this.hasPhotos,
+    this.hasIpix,
     this.indOpenhuizenTopper,
     this.indPdf,
-    this.indPlattegrond,
+    this.hasMap,
     this.indTop,
     this.indVeilingProduct,
-    this.indVideo,
+    this.hasVideo,
     this.inhoud,
     this.internalId,
     this.isIngetrokken,
     this.isVerhuurd,
     this.isVerkocht,
     this.isolatie,
-    this.kenmerken,
+    this.characteristics,
     this.kenmerkenKort,
     this.kenmerkenTitel,
-    this.ligging,
+    this.locationTitle,
     this.mliUrl,
-    this.makelaar,
-    this.makelaarId,
-    this.makelaarTelefoon,
+    this.agentName,
+    this.agentId,
+    this.agentPhone,
     this.medeAanbieders,
     this.media,
-    this.mediaFoto,
+    this.mediaPhotos,
     this.mobileUrl,
     this.objectType,
     this.objectTypeMetVoorvoegsel,
     this.openHuizen,
-    this.perceelOppervlakte,
+    this.plotArea,
     this.permanenteBewoning,
-    this.plaats,
+    this.place,
     this.postcode,
-    this.prijs,
-    this.prijsGeformatteerd,
+    this.price,
+    this.formatedPrice,
     this.project,
     this.projectNaam,
     this.publicatieDatum,
@@ -242,12 +262,12 @@ class EstateDetail {
     this.verkoopStatus,
     this.verwarming,
     this.video,
-    this.volledigeOmschrijving,
+    this.fullDescription,
     this.voorzieningen,
-    this.wgs84X,
-    this.wgs84Y,
+    this.longitude,
+    this.latitude,
     this.warmWater,
-    this.woonOppervlakte,
+    this.resedentialArea,
     this.eersteHuurPrijs,
     this.eersteHuurPrijsLang,
     this.eersteKoopPrijs,
@@ -269,26 +289,26 @@ class EstateDetail {
 
   factory EstateDetail.fromMap(Map<String, dynamic> data) => EstateDetail(
         aangebodenSinds: data['AangebodenSinds'] as String?,
-        aangebodenSindsTekst: data['AangebodenSindsTekst'] as String?,
-        aantalBadkamers: data['AantalBadkamers'] as int?,
-        aantalKamers: data['AantalKamers'] as int?,
+        offeredSinceText: data['AangebodenSindsTekst'] as String?,
+        numberOfBathrooms: data['AantalBadkamers'] as int?,
+        numberOfRooms: data['AantalKamers'] as int?,
         aantalSlaapkamers: data['AantalSlaapkamers'] as dynamic,
         aantalWoonlagen: data['AantalWoonlagen'] as String?,
         aanvaarding: data['Aanvaarding'] as String?,
-        adres: data['Adres'] as String?,
+        address: data['Adres'] as String?,
         afgekochtDatum: data['AfgekochtDatum'] as dynamic,
         balkonDakterras: data['BalkonDakterras'] as String?,
         bedrijfsruimteCombinatieObject:
             data['BedrijfsruimteCombinatieObject'] as dynamic,
         bezichtingDagdelen: (data['BezichtingDagdelen'] as List<dynamic>?)
-            ?.map((e) => BezichtingDagdelen.fromMap(e as Map<String, dynamic>))
+            ?.map((e) => SeeingDayPart.fromMap(e as Map<String, dynamic>))
             .toList(),
         bezichtingDagen: (data['BezichtingDagen'] as List<dynamic>?)
-            ?.map((e) => BezichtingDagen.fromMap(e as Map<String, dynamic>))
+            ?.map((e) => ViewDays.fromMap(e as Map<String, dynamic>))
             .toList(),
         bijdrageVve: data['BijdrageVVE'] as dynamic,
         bijzonderheden: data['Bijzonderheden'] as dynamic,
-        bouwjaar: data['Bouwjaar'] as String?,
+        constructionYear: data['Bouwjaar'] as String?,
         bouwvorm: data['Bouwvorm'] as String?,
         bronCode: data['BronCode'] as String?,
         contactpersoonEmail: data['ContactpersoonEmail'] as dynamic,
@@ -305,60 +325,60 @@ class EstateDetail {
             : Energielabel.fromMap(
                 data['Energielabel'] as Map<String, dynamic>),
         erfpachtBedrag: data['ErfpachtBedrag'] as dynamic,
-        garage: data['Garage'] as dynamic,
+        garage: data['Garage'] as String?,
         garageIsolatie: data['GarageIsolatie'] as dynamic,
         garageVoorzieningen: data['GarageVoorzieningen'] as dynamic,
         gelegenOp: data['GelegenOp'] as dynamic,
         gewijzigdDatum: data['GewijzigdDatum'] as String?,
-        hoofdFoto: data['HoofdFoto'] as String?,
-        hoofdFotoSecure: data['HoofdFotoSecure'] as String?,
-        hoofdTuinType: data['HoofdTuinType'] as String?,
+        mainPhoto: data['HoofdFoto'] as String?,
+        mainPhotoSource: data['HoofdFotoSecure'] as String?,
+        gardenType: data['HoofdTuinType'] as String?,
         id: data['Id'] as int?,
-        indBasisPlaatsing: data['IndBasisPlaatsing'] as bool?,
-        indFotos: data['IndFotos'] as bool?,
-        indIpix: data['IndIpix'] as bool?,
+        hasBasePlacement: data['IndBasisPlaatsing'] as bool?,
+        hasPhotos: data['IndFotos'] as bool?,
+        hasIpix: data['IndIpix'] as bool?,
         indOpenhuizenTopper: data['IndOpenhuizenTopper'] as bool?,
         indPdf: data['IndPDF'] as bool?,
-        indPlattegrond: data['IndPlattegrond'] as bool?,
+        hasMap: data['IndPlattegrond'] as bool?,
         indTop: data['IndTop'] as bool?,
         indVeilingProduct: data['IndVeilingProduct'] as bool?,
-        indVideo: data['IndVideo'] as bool?,
+        hasVideo: data['IndVideo'] as bool?,
         inhoud: data['Inhoud'] as int?,
         internalId: data['InternalId'] as String?,
         isIngetrokken: data['IsIngetrokken'] as bool?,
         isVerhuurd: data['IsVerhuurd'] as bool?,
         isVerkocht: data['IsVerkocht'] as bool?,
         isolatie: data['Isolatie'] as String?,
-        kenmerken: (data['Kenmerken'] as List<dynamic>?)
-            ?.map((e) => Kenmerken.fromMap(e as Map<String, dynamic>))
+        characteristics: (data['Kenmerken'] as List<dynamic>?)
+            ?.map((e) => Character.fromMap(e as Map<String, dynamic>))
             .toList(),
         kenmerkenKort: data['KenmerkenKort'] == null
             ? null
             : KenmerkenKort.fromMap(
                 data['KenmerkenKort'] as Map<String, dynamic>),
         kenmerkenTitel: data['KenmerkenTitel'] as dynamic,
-        ligging: data['Ligging'] as String?,
+        locationTitle: data['Ligging'] as String?,
         mliUrl: data['MLIUrl'] as String?,
-        makelaar: data['Makelaar'] as String?,
-        makelaarId: data['MakelaarId'] as int?,
-        makelaarTelefoon: data['MakelaarTelefoon'] as String?,
+        agentName: data['Makelaar'] as String?,
+        agentId: data['MakelaarId'] as int?,
+        agentPhone: data['MakelaarTelefoon'] as String?,
         medeAanbieders: data['MedeAanbieders'] as List<dynamic>?,
         media: (data['Media'] as List<dynamic>?)
             ?.map((e) => Media.fromMap(e as Map<String, dynamic>))
             .toList(),
-        mediaFoto: data['Media-Foto'] as List<String>?,
+        mediaPhotos: data['Media-Foto'] as List<String>?,
         mobileUrl: data['MobileURL'] as String?,
         objectType: data['ObjectType'] as String?,
         objectTypeMetVoorvoegsel: data['ObjectTypeMetVoorvoegsel'] as String?,
         openHuizen: data['OpenHuizen'] as List<dynamic>?,
-        perceelOppervlakte: data['PerceelOppervlakte'] as int?,
+        plotArea: data['PerceelOppervlakte'] as int?,
         permanenteBewoning: data['PermanenteBewoning'] as String?,
-        plaats: data['Plaats'] as String?,
+        place: data['Plaats'] as String?,
         postcode: data['Postcode'] as String?,
-        prijs: data['Prijs'] == null
+        price: data['Prijs'] == null
             ? null
-            : Prijs.fromMap(data['Prijs'] as Map<String, dynamic>),
-        prijsGeformatteerd: data['PrijsGeformatteerd'] as String?,
+            : Price.fromMap(data['Prijs'] as Map<String, dynamic>),
+        formatedPrice: data['PrijsGeformatteerd'] as String?,
         project: data['Project'] as dynamic,
         projectNaam: data['ProjectNaam'] as dynamic,
         publicatieDatum: data['PublicatieDatum'] as String?,
@@ -396,12 +416,12 @@ class EstateDetail {
         video: data['Video'] == null
             ? null
             : Video.fromMap(data['Video'] as Map<String, dynamic>),
-        volledigeOmschrijving: data['VolledigeOmschrijving'] as String?,
+        fullDescription: data['VolledigeOmschrijving'] as String?,
         voorzieningen: data['Voorzieningen'] as String?,
-        wgs84X: (data['WGS84_X'] as num?)?.toDouble(),
-        wgs84Y: (data['WGS84_Y'] as num?)?.toDouble(),
+        longitude: (data['WGS84_X'] as num?)?.toDouble(),
+        latitude: (data['WGS84_Y'] as num?)?.toDouble(),
         warmWater: data['WarmWater'] as String?,
-        woonOppervlakte: data['WoonOppervlakte'] as int?,
+        resedentialArea: data['WoonOppervlakte'] as int?,
         eersteHuurPrijs: data['EersteHuurPrijs'] as dynamic,
         eersteHuurPrijsLang: data['EersteHuurPrijsLang'] as dynamic,
         eersteKoopPrijs: data['EersteKoopPrijs'] as dynamic,
@@ -423,13 +443,13 @@ class EstateDetail {
 
   Map<String, dynamic> toMap() => {
         'AangebodenSinds': aangebodenSinds,
-        'AangebodenSindsTekst': aangebodenSindsTekst,
-        'AantalBadkamers': aantalBadkamers,
-        'AantalKamers': aantalKamers,
+        'AangebodenSindsTekst': offeredSinceText,
+        'AantalBadkamers': numberOfBathrooms,
+        'AantalKamers': numberOfRooms,
         'AantalSlaapkamers': aantalSlaapkamers,
         'AantalWoonlagen': aantalWoonlagen,
         'Aanvaarding': aanvaarding,
-        'Adres': adres,
+        'Adres': address,
         'AfgekochtDatum': afgekochtDatum,
         'BalkonDakterras': balkonDakterras,
         'BedrijfsruimteCombinatieObject': bedrijfsruimteCombinatieObject,
@@ -438,7 +458,7 @@ class EstateDetail {
         'BezichtingDagen': bezichtingDagen?.map((e) => e.toMap()).toList(),
         'BijdrageVVE': bijdrageVve,
         'Bijzonderheden': bijzonderheden,
-        'Bouwjaar': bouwjaar,
+        'Bouwjaar': constructionYear,
         'Bouwvorm': bouwvorm,
         'BronCode': bronCode,
         'ContactpersoonEmail': contactpersoonEmail,
@@ -455,46 +475,46 @@ class EstateDetail {
         'GarageVoorzieningen': garageVoorzieningen,
         'GelegenOp': gelegenOp,
         'GewijzigdDatum': gewijzigdDatum,
-        'HoofdFoto': hoofdFoto,
-        'HoofdFotoSecure': hoofdFotoSecure,
-        'HoofdTuinType': hoofdTuinType,
+        'HoofdFoto': mainPhoto,
+        'HoofdFotoSecure': mainPhotoSource,
+        'HoofdTuinType': gardenType,
         'Id': id,
-        'IndBasisPlaatsing': indBasisPlaatsing,
-        'IndFotos': indFotos,
-        'IndIpix': indIpix,
+        'IndBasisPlaatsing': hasBasePlacement,
+        'IndFotos': hasPhotos,
+        'IndIpix': hasIpix,
         'IndOpenhuizenTopper': indOpenhuizenTopper,
         'IndPDF': indPdf,
-        'IndPlattegrond': indPlattegrond,
+        'IndPlattegrond': hasMap,
         'IndTop': indTop,
         'IndVeilingProduct': indVeilingProduct,
-        'IndVideo': indVideo,
+        'IndVideo': hasVideo,
         'Inhoud': inhoud,
         'InternalId': internalId,
         'IsIngetrokken': isIngetrokken,
         'IsVerhuurd': isVerhuurd,
         'IsVerkocht': isVerkocht,
         'Isolatie': isolatie,
-        'Kenmerken': kenmerken?.map((e) => e.toMap()).toList(),
+        'Kenmerken': characteristics?.map((e) => e.toMap()).toList(),
         'KenmerkenKort': kenmerkenKort?.toMap(),
         'KenmerkenTitel': kenmerkenTitel,
-        'Ligging': ligging,
+        'Ligging': locationTitle,
         'MLIUrl': mliUrl,
-        'Makelaar': makelaar,
-        'MakelaarId': makelaarId,
-        'MakelaarTelefoon': makelaarTelefoon,
+        'Makelaar': agentName,
+        'MakelaarId': agentId,
+        'MakelaarTelefoon': agentPhone,
         'MedeAanbieders': medeAanbieders,
         'Media': media?.map((e) => e.toMap()).toList(),
-        'Media-Foto': mediaFoto,
+        'Media-Foto': mediaPhotos,
         'MobileURL': mobileUrl,
         'ObjectType': objectType,
         'ObjectTypeMetVoorvoegsel': objectTypeMetVoorvoegsel,
         'OpenHuizen': openHuizen,
-        'PerceelOppervlakte': perceelOppervlakte,
+        'PerceelOppervlakte': plotArea,
         'PermanenteBewoning': permanenteBewoning,
-        'Plaats': plaats,
+        'Plaats': place,
         'Postcode': postcode,
-        'Prijs': prijs?.toMap(),
-        'PrijsGeformatteerd': prijsGeformatteerd,
+        'Prijs': price?.toMap(),
+        'PrijsGeformatteerd': formatedPrice,
         'Project': project,
         'ProjectNaam': projectNaam,
         'PublicatieDatum': publicatieDatum,
@@ -525,12 +545,12 @@ class EstateDetail {
         'VerkoopStatus': verkoopStatus,
         'Verwarming': verwarming,
         'Video': video?.toMap(),
-        'VolledigeOmschrijving': volledigeOmschrijving,
+        'VolledigeOmschrijving': fullDescription,
         'Voorzieningen': voorzieningen,
-        'WGS84_X': wgs84X,
-        'WGS84_Y': wgs84Y,
+        'WGS84_X': longitude,
+        'WGS84_Y': latitude,
         'WarmWater': warmWater,
-        'WoonOppervlakte': woonOppervlakte,
+        'WoonOppervlakte': resedentialArea,
         'EersteHuurPrijs': eersteHuurPrijs,
         'EersteHuurPrijsLang': eersteHuurPrijsLang,
         'EersteKoopPrijs': eersteKoopPrijs,
