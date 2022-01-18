@@ -1,5 +1,4 @@
 import 'package:flutter/foundation.dart';
-import 'package:funda_assignment/configuration/utility.dart';
 
 // I know, I know, You didn't mentioned this part but when I developed this part
 // I wanted to show my knowledge about working on both develop and production mode

@@ -1,6 +1,4 @@
-import 'dart:convert';
 
-import 'package:flutter/foundation.dart';
 import 'package:funda_assignment/configuration/constants.dart';
 import 'package:funda_assignment/data/models/estate_detail/estate_detail.dart';
 import 'package:funda_assignment/data/models/estate_state.dart';
@@ -25,13 +23,10 @@ class EstateDetailRepository implements IEstateDetailRepository {
   Future<EstateState> getEstateDetail(
       String estateKey, EstateTypes type) async {
     final apiKey = Constants.of().apiKey;
-    debugPrint(apiKey);
     final typeString = type == EstateTypes.rent ? 'huur' : 'koop';
     try {
-      debugPrint('we are in get estate detail repository');
       final response = await _api.get('detail/$apiKey/$typeString/$estateKey');
       EstateDetail detail = EstateDetail.fromMap(response.data);
-      debugPrint(detail.toString());
       return EstateState.loaded(estate: detail);
     } catch (e) {
       return EstateState.failed(error: AppError(e as Exception));

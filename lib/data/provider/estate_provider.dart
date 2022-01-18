@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:funda_assignment/data/models/estate_detail/estate_detail.dart';
 import 'package:funda_assignment/data/models/estate_state.dart';
 import 'package:funda_assignment/data/repository/estate_detail_repository.dart';
@@ -16,8 +15,7 @@ class EstateProvider extends StateNotifier<EstateState> {
   late final EstateDetailRepository _estateRepository =
       _reader(estateRepositoryProvider);
   Future<void> getEstateDetail(String estateKey, EstateTypes type) async {
-    debugPrint("getEstateDetail");
-    state = const EstateState.loading();
+    await Future.delayed(const Duration(seconds: 2));
     state = await _estateRepository.getEstateDetail(estateKey, type);
   }
 }

@@ -1,1 +1,1 @@
-export '/ui/views/detail_page.dart';
+export 'views/detail/estate_detail_screen.dart';
