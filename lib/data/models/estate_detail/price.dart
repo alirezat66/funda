@@ -14,16 +14,16 @@ class Price {
   String? sellAbbreviation;
   //koopprijs
   int? sellPrice;
-  String get showingPrice{
-    if(sellPrice == null){
+  String get showingPrice {
+    if (sellPrice == null) {
       // it is rental place
-      return '\u{20B9} ${Utility.moneyFormat(rentalPrice!)} $rentAbbreviation';
-    }else{
+      return '\u{20AC} ${Utility.moneyFormat(rentalPrice!)} $rentAbbreviation';
+    } else {
       // it is sell object
-      return '\u{20B9} ${Utility.moneyFormat(sellPrice!)} $sellAbbreviation';
+      return '\u{20AC} ${Utility.moneyFormat(sellPrice!)} $sellAbbreviation';
     }
-    
   }
+
   String? koopprijsOpAanvraag;
   dynamic koopprijsTot;
   dynamic originelePrijs;

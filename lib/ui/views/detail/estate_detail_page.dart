@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:funda_assignment/data/models/estate_detail/estate_detail.dart';
+import 'package:funda_assignment/ui/views/detail/widgets/estate_description_widget.dart';
+import 'package:funda_assignment/ui/views/detail/widgets/estate_info_widget.dart';
+import 'package:funda_assignment/ui/views/detail/widgets/media_action_button_widget.dart';
 
 class EstateDetailPage extends StatefulWidget {
-  const EstateDetailPage({Key? key}) : super(key: key);
+  final EstateDetail estate;
+  const EstateDetailPage({Key? key, required this.estate}) : super(key: key);
 
   @override
   _EstateDetailPageState createState() => _EstateDetailPageState();
@@ -19,21 +24,43 @@ class _EstateDetailPageState extends State<EstateDetailPage> {
                 floating: false,
                 pinned: true,
                 flexibleSpace: FlexibleSpaceBar(
-                    centerTitle: true,
-                    title: const Text("Collapsing Toolbar",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 16.0,
-                        )),
                     background: Image.network(
-                      "https://images.pexels.com/photos/396547/pexels-photo-396547.jpeg?auto=compress&cs=tinysrgb&h=350",
-                      fit: BoxFit.cover,
-                    )),
+                  widget.estate.mainPhoto!,
+                  fit: BoxFit.cover,
+                )),
               )
             ];
           },
-          body: Center(
-            child: Text("Sample Text"),
+          body: SingleChildScrollView(
+            physics: const NeverScrollableScrollPhysics(),
+            child: Column(
+              children: [
+                MediaActionButtonWidget(
+                  hasVideo: widget.estate.hasVideo!,
+                  hasPlot: widget.estate.hasBasePlacement!,
+                  hasPanarama: widget.estate.hasIpix!,
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Column(
+                    children: [
+                      EstateInfoWidget(
+                        address: widget.estate.address!,
+                        detailAddress: widget.estate.detailAddress,
+                        plotArea: widget.estate.plotArea!,
+                        resedentialArea: widget.estate.resedentialArea!,
+                        bedRooms: widget.estate.numberOfBedRooms,
+                        price: widget.estate.price!.showingPrice,
+                      ),
+                      const SizedBox(height: 48,),
+                      EstateDescriptionWidget(
+                        description: widget.estate.fullDescription!,
+                      )
+                    ],
+                  ),
+                ),
+              ],
+            ),
           )),
     );
   }

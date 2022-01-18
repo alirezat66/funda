@@ -38,7 +38,9 @@ class _EstateDetailScreenState extends ConsumerState<EstateDetailScreen> {
     return Scaffold(
       body: state.when(
           loading: () => const EstateDetailLoadingPage(),
-          loaded: (estates) => const EstateDetailPage(),
+          loaded: (estate) => EstateDetailPage(
+                estate: estate,
+              ),
           failed: (error) => const EstateDetailErrorPage()),
     );
   }

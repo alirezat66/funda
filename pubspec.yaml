@@ -13,6 +13,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   hooks_riverpod: ^1.0.3
   freezed_annotation: ^1.1.0
+  flutter_svg: ^0.23.0+1
   skeletons: ^0.0.3
   dio: ^4.0.4
 
@@ -26,7 +27,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
+  assets:
+    - images/
 fonts:
   - family: roboto
     fonts:
