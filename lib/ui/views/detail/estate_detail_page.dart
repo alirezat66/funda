@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:funda_assignment/data/models/estate_detail/estate_detail.dart';
+import 'package:funda_assignment/ui/views/detail/widgets/agent_widget.dart';
 import 'package:funda_assignment/ui/views/detail/widgets/estate_description_widget.dart';
 import 'package:funda_assignment/ui/views/detail/widgets/estate_feature_widget.dart';
 import 'package:funda_assignment/ui/views/detail/widgets/estate_info_widget.dart';
+import 'package:funda_assignment/ui/widgets/map_widget.dart';
 import 'package:funda_assignment/ui/views/detail/widgets/media_action_button_widget.dart';
+import 'package:latlong2/latlong.dart';
 
 class EstateDetailPage extends StatefulWidget {
   final EstateDetail estate;
@@ -62,7 +65,25 @@ class _EstateDetailPageState extends State<EstateDetailPage> {
                       const SizedBox(
                         height: 48,
                       ),
-                      EstateFeatureWidget(features: widget.estate.featires!)
+                      EstateFeatureWidget(
+                        features: widget.estate.featires!,
+                      ),
+                      const SizedBox(
+                        height: 48,
+                      ),
+                      MapWidget(
+                        coordinate: LatLng(
+                          widget.estate.latitude!,
+                          widget.estate.longitude!,
+                        ),
+                      ),
+                      const SizedBox(
+                        height: 48,
+                      ),
+                      AgentWidget(
+                        agentName: widget.estate.agentName!,
+                        agentPhone: widget.estate.agentPhone!,
+                      ),
                     ],
                   ),
                 ),

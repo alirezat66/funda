@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:funda_assignment/data/model/estate_detail/estate_detail.dart';
+import 'package:funda_assignment/data/models/estate_detail/estate_detail.dart';
 
 void main() {
   const String finalUri = 'test/data/model/estate_detail';

@@ -65,38 +65,43 @@ class MyApp extends HookConsumerWidget {
           ),
         ),
         textTheme: const TextTheme(
-            headline2: TextStyle(
-                fontSize: 24, fontWeight: FontWeight.w600, color: Colors.black),
-            headline3: TextStyle(
-                fontSize: 26, fontWeight: FontWeight.w600, color: Colors.black),
-            headline4: TextStyle(
-                fontSize: 19,
-                fontWeight: FontWeight.w500,
-                color: Colors.black38),
-            headline5: TextStyle(
-              fontSize: 18,
-              fontWeight: FontWeight.w600,
-              color: Color(0xff585858),
-            ),
-            headline6: TextStyle(
-              fontSize: 16,
-              fontWeight: FontWeight.w600,
-              color: Colors.black87,
-            ),
-            bodyText1: TextStyle(
-                fontSize: 14,
-                fontWeight: FontWeight.w500,
-                color: Colors.black87,
-                height: 1.6),
-            bodyText2: TextStyle(
+          headline2: TextStyle(
+              fontSize: 24, fontWeight: FontWeight.w600, color: Colors.black),
+          headline3: TextStyle(
+              fontSize: 26, fontWeight: FontWeight.w600, color: Colors.black),
+          headline4: TextStyle(
+              fontSize: 19, fontWeight: FontWeight.w500, color: Colors.black38),
+          headline5: TextStyle(
+            fontSize: 18,
+            fontWeight: FontWeight.w600,
+            color: Color(0xff585858),
+          ),
+          headline6: TextStyle(
+            fontSize: 16,
+            fontWeight: FontWeight.w600,
+            color: Colors.black87,
+          ),
+          bodyText1: TextStyle(
               fontSize: 14,
-              fontWeight: FontWeight.w400,
-              color: Colors.black54,
-            ),
-            button: TextStyle(
-                fontSize: 12,
-                fontWeight: FontWeight.w400,
-                color: Color(0xff0271B3))),
+              fontWeight: FontWeight.w500,
+              color: Colors.black87,
+              height: 1.6),
+          bodyText2: TextStyle(
+            fontSize: 14,
+            fontWeight: FontWeight.w400,
+            color: Colors.black54,
+          ),
+          caption: TextStyle(
+            fontSize: 16,
+            fontWeight: FontWeight.w400,
+            color: Colors.white,
+          ),
+          button: TextStyle(
+            fontSize: 12,
+            fontWeight: FontWeight.w400,
+            color: Color(0xff0271B3),
+          ),
+        ),
         fontFamily: 'roboto',
       ),
       routes: GeneralRouter.pages,
