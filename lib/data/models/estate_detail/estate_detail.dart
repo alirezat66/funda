@@ -12,6 +12,8 @@ import 'titel.dart';
 import 'veiling.dart';
 import 'video.dart';
 
+enum EstateTypes { rent, buy }
+
 class EstateDetail {
   String? aangebodenSinds;
   //aangebodenSindsTekst

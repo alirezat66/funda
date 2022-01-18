@@ -30,7 +30,7 @@ class Constants {
 
   factory Constants._dev() {
     return const Constants._(
-      endpoint: 'http://partnerapi.funda.nl/feeds/Aanbod.svc/json/detail/',
+      endpoint: 'http://partnerapi.funda.nl/feeds/Aanbod.svc/json/',
       apiKey: 'ac1b0b1572524640a0ecc54de453ea9f',
     );
   }
