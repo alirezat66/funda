@@ -1,10 +1,10 @@
 import 'dart:convert';
 
-class InnerCharacter {
+class InnerFeature {
 String name;
 String  value;
 String? nameCss;
-  InnerCharacter({
+  InnerFeature({
     required this.name,
     required this.value,
     this.nameCss,
@@ -20,8 +20,8 @@ String? nameCss;
     };
   }
 
-  factory InnerCharacter.fromMap(Map<String, dynamic> map) {
-    return InnerCharacter(
+  factory InnerFeature.fromMap(Map<String, dynamic> map) {
+    return InnerFeature(
       name: map['Naam'] ?? '',
       value: map['Waarde'] ?? '',
       nameCss: map['NaamCss'] as String?,
@@ -30,7 +30,7 @@ String? nameCss;
 
   String toJson() => json.encode(toMap());
 
-  factory InnerCharacter.fromJson(String source) => InnerCharacter.fromMap(json.decode(source));
+  factory InnerFeature.fromJson(String source) => InnerFeature.fromMap(json.decode(source));
 
   @override
   String toString() => 'InnerCharacter(name: $name, value: $value)';
@@ -39,7 +39,7 @@ String? nameCss;
   bool operator ==(Object other) {
     if (identical(this, other)) return true;
   
-    return other is InnerCharacter &&
+    return other is InnerFeature &&
       other.name == name &&
       other.value == value;
   }

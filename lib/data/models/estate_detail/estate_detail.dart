@@ -78,7 +78,7 @@ class EstateDetail {
   bool? isVerhuurd;
   bool? isVerkocht;
   String? isolatie;
-  List<Character>? characteristics;
+  List<Feature>? featires;
   KenmerkenKort? kenmerkenKort;
   dynamic kenmerkenTitel;
   String? locationTitle;
@@ -218,7 +218,7 @@ class EstateDetail {
     this.isVerhuurd,
     this.isVerkocht,
     this.isolatie,
-    this.characteristics,
+    this.featires,
     this.kenmerkenKort,
     this.kenmerkenTitel,
     this.locationTitle,
@@ -356,8 +356,8 @@ class EstateDetail {
         isVerhuurd: data['IsVerhuurd'] as bool?,
         isVerkocht: data['IsVerkocht'] as bool?,
         isolatie: data['Isolatie'] as String?,
-        characteristics: (data['Kenmerken'] as List<dynamic>?)
-            ?.map((e) => Character.fromMap(e as Map<String, dynamic>))
+        featires: (data['Kenmerken'] as List<dynamic>?)
+            ?.map((e) => Feature.fromMap(e as Map<String, dynamic>))
             .toList(),
         kenmerkenKort: data['KenmerkenKort'] == null
             ? null
@@ -500,7 +500,7 @@ class EstateDetail {
         'IsVerhuurd': isVerhuurd,
         'IsVerkocht': isVerkocht,
         'Isolatie': isolatie,
-        'Kenmerken': characteristics?.map((e) => e.toMap()).toList(),
+        'Kenmerken': featires?.map((e) => e.toMap()).toList(),
         'KenmerkenKort': kenmerkenKort?.toMap(),
         'KenmerkenTitel': kenmerkenTitel,
         'Ligging': locationTitle,

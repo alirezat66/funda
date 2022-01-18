@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:funda_assignment/data/models/estate_detail/estate_detail.dart';
 import 'package:funda_assignment/ui/views/detail/widgets/estate_description_widget.dart';
+import 'package:funda_assignment/ui/views/detail/widgets/estate_feature_widget.dart';
 import 'package:funda_assignment/ui/views/detail/widgets/estate_info_widget.dart';
 import 'package:funda_assignment/ui/views/detail/widgets/media_action_button_widget.dart';
 
@@ -52,10 +53,16 @@ class _EstateDetailPageState extends State<EstateDetailPage> {
                         bedRooms: widget.estate.numberOfBedRooms,
                         price: widget.estate.price!.showingPrice,
                       ),
-                      const SizedBox(height: 48,),
+                      const SizedBox(
+                        height: 48,
+                      ),
                       EstateDescriptionWidget(
                         description: widget.estate.fullDescription!,
-                      )
+                      ),
+                      const SizedBox(
+                        height: 48,
+                      ),
+                      EstateFeatureWidget(features: widget.estate.featires!)
                     ],
                   ),
                 ),

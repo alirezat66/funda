@@ -1,51 +1,51 @@
 import 'dart:convert';
 
-import 'inner_character.dart';
+import 'inner_feature.dart';
 
-class Character {
+class Feature {
   dynamic ad;
-  List<InnerCharacter>? characters;
+  List<InnerFeature>? innerFeatures;
   int? lokNummer;
-  Character? subCharacter;
+  Feature? subFeature;
   String? titel;
 
-  Character({
+  Feature({
     this.ad,
-    this.characters,
+    this.innerFeatures,
     this.lokNummer,
-    this.subCharacter,
+    this.subFeature,
     this.titel,
   });
 
-  factory Character.fromMap(Map<String, dynamic> data) => Character(
+  factory Feature.fromMap(Map<String, dynamic> data) => Feature(
         ad: data['Ad'] as dynamic,
-        characters: (data['Kenmerken'] as List<dynamic>?)
-            ?.map((e) => InnerCharacter.fromMap(e as Map<String, dynamic>))
+        innerFeatures: (data['Kenmerken'] as List<dynamic>?)
+            ?.map((e) => InnerFeature.fromMap(e as Map<String, dynamic>))
             .toList(),
         lokNummer: data['LokNummer'] as int?,
-        subCharacter: data['SubKenmerk'] == null
+        subFeature: data['SubKenmerk'] == null
             ? null
-            : Character.fromMap(data['SubKenmerk']!),
+            : Feature.fromMap(data['SubKenmerk']!),
         titel: data['Titel'] as String?,
       );
 
   Map<String, dynamic> toMap() => {
         'Ad': ad,
-        'Kenmerken': characters?.map((e) => e.toMap()).toList(),
+        'Kenmerken': innerFeatures?.map((e) => e.toMap()).toList(),
         'LokNummer': lokNummer,
-        'SubKenmerk': subCharacter,
+        'SubKenmerk': subFeature,
         'Titel': titel,
       };
 
   /// `dart:convert`
   ///
-  /// Parses the string and returns the resulting Json object as [Character].
-  factory Character.fromJson(String data) {
-    return Character.fromMap(json.decode(data) as Map<String, dynamic>);
+  /// Parses the string and returns the resulting Json object as [Feature].
+  factory Feature.fromJson(String data) {
+    return Feature.fromMap(json.decode(data) as Map<String, dynamic>);
   }
 
   /// `dart:convert`
   ///
-  /// Converts [Character] to a JSON string.
+  /// Converts [Feature] to a JSON string.
   String toJson() => json.encode(toMap());
 }

@@ -4,7 +4,7 @@ import 'characters.dart';
 
 class KenmerkenKort {
   dynamic ad;
-  List<Character>? kenmerken;
+  List<Feature>? kenmerken;
   int? lokNummer;
   dynamic subKenmerk;
   dynamic titel;
@@ -20,7 +20,7 @@ class KenmerkenKort {
   factory KenmerkenKort.fromMap(Map<String, dynamic> data) => KenmerkenKort(
         ad: data['Ad'] as dynamic,
         kenmerken: (data['Kenmerken'] as List<dynamic>?)
-            ?.map((e) => Character.fromMap(e as Map<String, dynamic>))
+            ?.map((e) => Feature.fromMap(e as Map<String, dynamic>))
             .toList(),
         lokNummer: data['LokNummer'] as int?,
         subKenmerk: data['SubKenmerk'] as dynamic,

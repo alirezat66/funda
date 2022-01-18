@@ -14,8 +14,11 @@ dependencies:
   hooks_riverpod: ^1.0.3
   freezed_annotation: ^1.1.0
   flutter_svg: ^0.23.0+1
+  
   skeletons: ^0.0.3
   dio: ^4.0.4
+  html: ^0.15.0
+  flutter_widget_from_html: ^0.8.4
 
 dev_dependencies:
   freezed: ^1.1.1

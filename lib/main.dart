@@ -73,10 +73,9 @@ class MyApp extends HookConsumerWidget {
                 fontSize: 19,
                 fontWeight: FontWeight.w500,
                 color: Colors.black38),
-            
             headline5: TextStyle(
-              fontSize: 16,
-              fontWeight: FontWeight.w800,
+              fontSize: 18,
+              fontWeight: FontWeight.w600,
               color: Color(0xff585858),
             ),
             headline6: TextStyle(
@@ -90,9 +89,9 @@ class MyApp extends HookConsumerWidget {
                 color: Colors.black87,
                 height: 1.6),
             bodyText2: TextStyle(
-              fontSize: 12,
+              fontSize: 14,
               fontWeight: FontWeight.w400,
-              color: Color(0xffB4B4B4),
+              color: Colors.black54,
             ),
             button: TextStyle(
                 fontSize: 12,

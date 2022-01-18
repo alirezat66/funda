@@ -39,10 +39,10 @@ void main() {
         expect(estate.mainPhoto, isNotEmpty);
       });
       test('test charecters size', () {
-        expect(estate.characteristics!.length, equals(9));
+        expect(estate.featires!.length, equals(9));
       });
       test('test inner characters size', () {
-        expect(estate.characteristics![0].characters!.length, equals(5));
+        expect(estate.featires![0].innerFeatures!.length, equals(5));
       });
       test('test count of images', () {
         expect(estate.mediaPhotos!.length, equals(62));
@@ -127,10 +127,10 @@ void main() {
         expect(estate.mainPhoto, isNotEmpty);
       });
       test('test charecters size', () {
-        expect(estate.characteristics!.length, equals(10));
+        expect(estate.featires!.length, equals(10));
       });
       test('test inner characters size', () {
-        expect(estate.characteristics![0].characters!.length, equals(5));
+        expect(estate.featires![0].innerFeatures!.length, equals(5));
       });
       test('test count of images', () {
         expect(estate.mediaPhotos!.length, equals(29));
@@ -216,10 +216,10 @@ void main() {
         expect(estate.mainPhoto, isNotEmpty);
       });
       test('test charecters size', () {
-        expect(estate.characteristics!.length, equals(9));
+        expect(estate.featires!.length, equals(9));
       });
       test('test inner characters size', () {
-        expect(estate.characteristics![0].characters!.length, equals(5));
+        expect(estate.featires![0].innerFeatures!.length, equals(5));
       });
       test('test count of images', () {
         expect(estate.mediaPhotos!.length, equals(48));
@@ -304,10 +304,10 @@ void main() {
         expect(estate.mainPhoto, isNotEmpty);
       });
       test('test charecters size', () {
-        expect(estate.characteristics!.length, equals(9));
+        expect(estate.featires!.length, equals(9));
       });
       test('test inner characters size', () {
-        expect(estate.characteristics![0].characters!.length, equals(5));
+        expect(estate.featires![0].innerFeatures!.length, equals(5));
       });
       test('test count of images', () {
         expect(estate.mediaPhotos!.length, equals(39));
@@ -392,10 +392,10 @@ void main() {
         expect(estate.mainPhoto, isNotEmpty);
       });
       test('test charecters size', () {
-        expect(estate.characteristics!.length, equals(8));
+        expect(estate.featires!.length, equals(8));
       });
       test('test inner characters size', () {
-        expect(estate.characteristics![0].characters!.length, equals(7));
+        expect(estate.featires![0].innerFeatures!.length, equals(7));
       });
       test('test count of images', () {
         expect(estate.mediaPhotos!.length, equals(28));
