@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:funda_assignment/ui/rout/const_routes.dart';
+import 'package:funda_assignment/ui/route/const_routes.dart';
 
 import '../screen.dart';
 

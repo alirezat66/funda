@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:funda_assignment/data/models/estate_detail/estate_detail.dart';
-import 'package:funda_assignment/ui/rout/const_routes.dart';
+import 'package:funda_assignment/ui/route/const_routes.dart';
 import 'package:funda_assignment/ui/views/detail/widgets/agent_widget.dart';
 import 'package:funda_assignment/ui/views/detail/widgets/estate_description_widget.dart';
 import 'package:funda_assignment/ui/views/detail/widgets/estate_feature_widget.dart';

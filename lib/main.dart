@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:funda_assignment/ui/rout/const_routes.dart';
-import 'package:funda_assignment/ui/rout/general_router.dart';
+import 'package:funda_assignment/ui/route/const_routes.dart';
+import 'package:funda_assignment/ui/route/general_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 void main() {
