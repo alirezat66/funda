@@ -15,7 +15,6 @@ class EstateProvider extends StateNotifier<EstateState> {
   late final EstateDetailRepository _estateRepository =
       _reader(estateRepositoryProvider);
   Future<void> getEstateDetail(String estateKey, EstateTypes type) async {
-    await Future.delayed(const Duration(seconds: 2));
     state = await _estateRepository.getEstateDetail(estateKey, type);
   }
 }
