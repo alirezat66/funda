@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:funda_assignment/data/provider/estate_provider.dart';
+import 'package:funda_assignment/ui/rout/const_routes.dart';
+import 'package:funda_assignment/ui/rout/general_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import 'data/app_error.dart';
@@ -29,7 +31,8 @@ class MyApp extends HookConsumerWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      routes: GeneralRouter.pages,
+      initialRoute: FundaRoute.detailPafe,
     );
   }
 }
@@ -56,7 +59,7 @@ class MyHomePageState extends ConsumerState<MyHomePage> {
   @override
   void initState() {
     super.initState();
-    Future.delayed(Duration.zero,(){
+    Future.delayed(Duration.zero, () {
       _call();
     });
     // "ref" can be used in all life-cycles of a StatefulWidget.
