@@ -5,6 +5,8 @@ import '../screen.dart';
 
 class GeneralRouter {
   static Map<String, WidgetBuilder> pages = {
-    FundaRoute.detailPafe: (context) => const EstateDetailScreen(),
+    FundaRoute.detailScreen: (context) => const EstateDetailScreen(),
+    FundaRoute.photoGalleryPage: (context) => PhotoGalleryPage(
+        ModalRoute.of(context)!.settings.arguments as List<dynamic>),
   };
 }

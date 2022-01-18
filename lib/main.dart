@@ -105,7 +105,7 @@ class MyApp extends HookConsumerWidget {
         fontFamily: 'roboto',
       ),
       routes: GeneralRouter.pages,
-      initialRoute: FundaRoute.detailPafe,
+      initialRoute: FundaRoute.detailScreen,
     );
   }
 }

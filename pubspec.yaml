@@ -12,9 +12,10 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
   hooks_riverpod: ^1.0.3
+  flutter_hooks: ^0.18.2
   freezed_annotation: ^1.1.0
   flutter_svg: ^0.23.0+1
-  
+  panorama: ^0.4.1
   skeletons: ^0.0.3
   dio: ^4.0.4
   html: ^0.15.0

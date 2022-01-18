@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:funda_assignment/data/models/estate_detail/estate_detail.dart';
+import 'package:funda_assignment/ui/rout/const_routes.dart';
 import 'package:funda_assignment/ui/views/detail/widgets/agent_widget.dart';
 import 'package:funda_assignment/ui/views/detail/widgets/estate_description_widget.dart';
 import 'package:funda_assignment/ui/views/detail/widgets/estate_feature_widget.dart';
@@ -28,9 +29,15 @@ class _EstateDetailPageState extends State<EstateDetailPage> {
                 floating: false,
                 pinned: true,
                 flexibleSpace: FlexibleSpaceBar(
-                    background: Image.network(
-                  widget.estate.mainPhoto!,
-                  fit: BoxFit.cover,
+                    background: InkWell(
+                  onTap: () {
+                    Navigator.pushNamed(context, FundaRoute.photoGalleryPage,
+                        arguments: widget.estate.mediaPhotos);
+                  },
+                  child: Image.network(
+                    widget.estate.mainPhoto!,
+                    fit: BoxFit.cover,
+                  ),
                 )),
               )
             ];
