@@ -19,7 +19,7 @@ final lightThemData = ThemeData(
   scaffoldBackgroundColor: Colors.white,
   textButtonTheme: TextButtonThemeData(
     style: TextButton.styleFrom(
-      primary: const Color(0xFF0271B3),
+      primary: const Color(0xff5292C5),
       onSurface: const Color(0xff949494),
       textStyle: const TextStyle(
         fontSize: 14,
@@ -52,30 +52,30 @@ final lightThemData = ThemeData(
   ),
   textTheme: const TextTheme(
     headline2: TextStyle(
-        fontSize: 24, fontWeight: FontWeight.w600, color: Colors.black),
+        fontSize: 24, fontWeight: FontWeight.w600, color: Color(0xff444444)),
     headline3: TextStyle(
-        fontSize: 26, fontWeight: FontWeight.w600, color: Colors.black),
+        fontSize: 26, fontWeight: FontWeight.w600, color: Color(0xff444444)),
     headline4: TextStyle(
-        fontSize: 19, fontWeight: FontWeight.w500, color: Colors.black38),
+        fontSize: 19, fontWeight: FontWeight.w500, color: Color(0xff666666)),
     headline5: TextStyle(
       fontSize: 18,
       fontWeight: FontWeight.w600,
-      color: Color(0xff585858),
+      color: Color(0xff666666),
     ),
     headline6: TextStyle(
       fontSize: 16,
       fontWeight: FontWeight.w600,
-      color: Colors.black87,
+      color: Color(0xff888888),
     ),
     bodyText1: TextStyle(
         fontSize: 14,
         fontWeight: FontWeight.w500,
-        color: Colors.black87,
+        color: Color(0xff888888),
         height: 1.6),
     bodyText2: TextStyle(
       fontSize: 14,
       fontWeight: FontWeight.w400,
-      color: Colors.black54,
+      color: Color(0xff666666),
     ),
     caption: TextStyle(
       fontSize: 16,
@@ -85,7 +85,7 @@ final lightThemData = ThemeData(
     button: TextStyle(
       fontSize: 12,
       fontWeight: FontWeight.w400,
-      color: Color(0xff0271B3),
+      color: Color(0xff5292C5),
     ),
   ),
   fontFamily: 'roboto',
@@ -102,15 +102,15 @@ final darkThemeData = ThemeData(
     onSecondary: Color(0xff0F0F0F),
     onSurface: Color(0xff0F0F0F),
     primaryVariant: Color(0xff0F0F0F),
-    secondary: Color(0xff2671B2),
+    secondary: Color(0xff5BA4DE),
     secondaryVariant: Color(0xff246DA8),
     surface: Color(0xffF7A102),
   ),
-  iconTheme: const IconThemeData(color: Colors.white70),
+  iconTheme: const IconThemeData(color: Colors.white),
   scaffoldBackgroundColor: const Color(0xff0F0F0F),
   textButtonTheme: TextButtonThemeData(
     style: TextButton.styleFrom(
-      primary: const Color(0xFF246DA8),
+      primary: const Color(0xFF5BA4DE),
       onSurface: const Color(0xff949494),
       textStyle: const TextStyle(
         fontSize: 14,
@@ -119,7 +119,7 @@ final darkThemeData = ThemeData(
     ),
   ),
   dividerTheme: DividerThemeData(
-      color: const Color(0xff246DA8).withOpacity(0.5), thickness: 0.5),
+      color: const Color(0xff5BA4DE).withOpacity(0.5), thickness: 0.5),
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       elevation: 2,
@@ -142,40 +142,40 @@ final darkThemeData = ThemeData(
   ),
   textTheme: const TextTheme(
     headline2: TextStyle(
-        fontSize: 24, fontWeight: FontWeight.w600, color: Color(0xffB7B7B7)),
+        fontSize: 24, fontWeight: FontWeight.w600, color: Colors.white,),
     headline3: TextStyle(
-        fontSize: 26, fontWeight: FontWeight.w600, color: Color(0xff36B785)),
+        fontSize: 26, fontWeight: FontWeight.w600, color: Colors.white),
     headline4: TextStyle(
-        fontSize: 19, fontWeight: FontWeight.w500, color: Colors.white70),
+        fontSize: 19, fontWeight: FontWeight.w500, color: Color(0xffC9C9C9)),
     headline5: TextStyle(
       fontSize: 18,
       fontWeight: FontWeight.w600,
-      color: Color(0xff36B785),
+      color: Color(0xffAdAdAd),
     ),
     headline6: TextStyle(
       fontSize: 16,
       fontWeight: FontWeight.w600,
-      color: Colors.white70,
+      color: Colors.white,
     ),
     bodyText1: TextStyle(
         fontSize: 14,
         fontWeight: FontWeight.w500,
-        color: Color(0xffB7B7B7),
+        color: Colors.white,
         height: 1.6),
     bodyText2: TextStyle(
       fontSize: 14,
       fontWeight: FontWeight.w400,
-      color: Color(0xffB7B7B7),
+      color: Color(0xffC9C9C9),
     ),
     caption: TextStyle(
       fontSize: 16,
       fontWeight: FontWeight.w400,
-      color: Colors.black,
+      color: Colors.white,
     ),
     button: TextStyle(
       fontSize: 12,
       fontWeight: FontWeight.w400,
-      color: Color(0xff0271B3),
+      color: Color(0xff5BA4DE),
     ),
   ),
   fontFamily: 'roboto',

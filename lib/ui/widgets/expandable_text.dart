@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
+import 'package:funda_assignment/ui/views/detail/widgets/show_more_button_widget.dart';
 
 // in this widget we create expandable animation view in simplest ways.
 // usually we should create this widget with painer but we have not enough time for that.
@@ -53,25 +54,16 @@ class _ExpandableTextState extends State<ExpandableText>
         Positioned(
           bottom: 0,
           child: Visibility(
-            visible: !_isExpandedState.value,
-            child: Container(
-              width: MediaQuery.of(context).size.width,
-              color: Colors.white.withOpacity(0.9),
-              child: TextButton(
-                  onPressed: () {
-                    _isExpandedState.value = true;
-                    _controller!.forward();
-                  },
-                  style: TextButton.styleFrom(
-                    minimumSize: Size.zero,
-                    padding: const EdgeInsets.all(8),
-                    tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-                  ),
-                  child: const Text('show more')),
-            ),
-          ),
+              visible: !_isExpandedState.value,
+              child: ShowMoreButtonWidget(
+                onPressed: () {
+                  _isExpandedState.value = true;
+                  _controller!.forward();
+                },
+              )),
         )
       ],
     );
   }
 }
+

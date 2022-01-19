@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:funda_assignment/data/models/estate_detail/characters.dart';
 import 'package:funda_assignment/ui/views/detail/widgets/estate_feature_listview.dart';
+import 'package:funda_assignment/ui/views/detail/widgets/show_more_button_widget.dart';
 
 class EstateFeatureWidget extends StatefulWidget {
   final List<Feature> features;
@@ -61,20 +62,11 @@ class _EstateFeatureWidgetState extends State<EstateFeatureWidget>
         ),
         Visibility(
           visible: !_isExpanded,
-          child: Container(
-            width: MediaQuery.of(context).size.width,
-            color: Colors.white.withOpacity(0.9),
-            child: TextButton(
-                onPressed: () {
-                  _isExpanded = true;
-                  _controller!.forward();
-                },
-                style: TextButton.styleFrom(
-                  minimumSize: Size.zero,
-                  padding: const EdgeInsets.all(8),
-                  tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-                ),
-                child: const Text('show more')),
+          child: ShowMoreButtonWidget(
+            onPressed: () {
+              _isExpanded = true;
+              _controller!.forward();
+            },
           ),
         ),
       ],

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:funda_assignment/data/models/estate_detail/estate_detail.dart';
 import 'package:funda_assignment/data/models/req/estate_detail_fake_requests.dart';
 import 'package:funda_assignment/data/provider/estate_provider.dart';
 import 'package:funda_assignment/ui/views/detail/estate_detail_error_page.dart';

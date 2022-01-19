@@ -51,11 +51,11 @@ images, panorama images, video (if exist), estate info, description, features, m
 | Primary Color | ![#F7A102](https://via.placeholder.com/10/F7A102?text=+) #F7A102 |
 | Secondary Color | ![#5292C5](https://via.placeholder.com/10/5292C5?text=+) #5292C5 |
 | Surface Color | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
-| Title Color | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
+| Title Color | ![#444444](https://via.placeholder.com/10/444444?text=+) #444444 |
 | Dark Primary Color | ![#F7A102](https://via.placeholder.com/10/F7A102?text=+) #F7A102 |
-| Dark Secondary Color | ![#2671B2](https://via.placeholder.com/10/2671B2?text=+) #2671B2 |
-| Dark Surface Color | ![#F7A102](https://via.placeholder.com/10/F7A102?text=+) #F7A102 |
-| Dark Title Color | ![#36B785](https://via.placeholder.com/10/36B785?text=+) #36B785 |
+| Dark Secondary Color | ![#5BA4DE](https://via.placeholder.com/10/2671B2?text=+) #5BA4DE |
+| Dark Surface Color | ![#0F0F0F](https://via.placeholder.com/10/0F0F0F?text=+) #0F0F0F |
+| Dark Title Color | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
 
 ## The main problems
 
