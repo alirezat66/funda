@@ -24,7 +24,6 @@ dependencies:
   latlong2: ^0.8.0
   url_launcher: ^6.0.18
   video_player: ^2.2.11
-  flutter_vlc_player: ^6.0.5
 dev_dependencies:
   freezed: ^1.1.1
   build_runner:
