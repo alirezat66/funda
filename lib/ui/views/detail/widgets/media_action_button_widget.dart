@@ -6,12 +6,16 @@ class MediaActionButtonWidget extends StatelessWidget {
   final bool hasPanarama;
   final bool hasPlot;
   final VoidCallback onPanoramaPressed;
+  final VoidCallback onPlotPressed;
+  final VoidCallback onVideoPressed;
   const MediaActionButtonWidget(
       {Key? key,
       required this.onPanoramaPressed,
       this.hasVideo = false,
       this.hasPanarama = false,
-      this.hasPlot = false})
+      this.hasPlot = false,
+      required this.onPlotPressed,
+      required this.onVideoPressed})
       : super(key: key);
 
   @override
@@ -27,7 +31,7 @@ class MediaActionButtonWidget extends StatelessWidget {
               IconTextWidget(
                   iconData: Icons.view_quilt_outlined,
                   text: 'platteground',
-                  onPressed: () {}),
+                  onPressed: onPlotPressed),
             if (hasPlot)
               Container(
                 width: 1,
@@ -47,7 +51,7 @@ class MediaActionButtonWidget extends StatelessWidget {
               IconTextWidget(
                   iconData: Icons.play_arrow_outlined,
                   text: 'Video',
-                  onPressed: () {}),
+                  onPressed: onVideoPressed),
           ],
         ),
       ),

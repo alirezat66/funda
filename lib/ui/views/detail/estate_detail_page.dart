@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:funda_assignment/data/models/estate_detail/estate_detail.dart';
 import 'package:funda_assignment/data/models/estate_detail/media.dart';
+import 'package:funda_assignment/data/models/estate_detail/video.dart';
 import 'package:funda_assignment/ui/route/const_routes.dart';
 import 'package:funda_assignment/ui/views/detail/widgets/agent_widget.dart';
 import 'package:funda_assignment/ui/views/detail/widgets/estate_description_widget.dart';
@@ -53,6 +54,14 @@ class _EstateDetailPageState extends State<EstateDetailPage> {
                   hasPanarama: widget.estate.hasIpix!,
                   onPanoramaPressed: () {
                     _goToPanoramaPage(widget.estate.panoramaImages);
+                  },
+                  onPlotPressed: () {
+                    /* I can't finde any related between medias and plot images,
+                     actually I cant find where I can find the plot imaages 
+                     so I cant displayes them seperately.*/
+                  },
+                  onVideoPressed: () {
+                    _goToVidePlayerPage(widget.estate.video);
                   },
                 ),
                 Padding(
@@ -107,5 +116,9 @@ class _EstateDetailPageState extends State<EstateDetailPage> {
   void _goToPanoramaPage(List<Media> panoramaImages) {
     Navigator.pushNamed(context, FundaRoute.panaromaPage,
         arguments: panoramaImages);
+  }
+
+  void _goToVidePlayerPage(Video? video) {
+    Navigator.pushNamed(context, FundaRoute.videoPlayerPage, arguments: video);
   }
 }
