@@ -95,6 +95,7 @@ class EstateDetail {
     final list = media!.where((element) => element.categorie == 1).toList();
     return list;
   }
+
   List<Media> get panoramaImages {
     final list = media!.where((element) => element.categorie == 5).toList();
     return list;

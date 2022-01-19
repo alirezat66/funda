@@ -18,10 +18,10 @@ class IconTextWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
         child: InkWell(
-          onTap: onPressed,
-          child: Padding(
-              padding: const EdgeInsets.symmetric(vertical: 16),
-              child: Column(
+      onTap: onPressed,
+      child: Padding(
+        padding: const EdgeInsets.symmetric(vertical: 16),
+        child: Column(
           children: [
             Icon(iconData,
                 color: Theme.of(context).colorScheme.secondary, size: size),
@@ -30,8 +30,8 @@ class IconTextWidget extends StatelessWidget {
             ),
             Text(text, style: Theme.of(context).textTheme.button)
           ],
-              ),
-            ),
-        ));
+        ),
+      ),
+    ));
   }
 }

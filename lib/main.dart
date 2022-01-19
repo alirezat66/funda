@@ -19,7 +19,8 @@ class MyApp extends HookConsumerWidget {
     final brightness = ref.watch(brightnessProvider.state);
     return MaterialApp(
       title: 'Funda',
-      theme: brightness.state == Brightness.light ? lightThemData : darkThemeData,
+      theme:
+          brightness.state == Brightness.light ? lightThemData : darkThemeData,
       routes: GeneralRouter.pages,
       initialRoute: FundaRoute.detailScreen,
     );

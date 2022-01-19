@@ -22,8 +22,7 @@ class SeeingDayPart {
   ///
   /// Parses the string and returns the resulting Json object as [SeeingDayPart].
   factory SeeingDayPart.fromJson(String data) {
-    return SeeingDayPart.fromMap(
-        json.decode(data) as Map<String, dynamic>);
+    return SeeingDayPart.fromMap(json.decode(data) as Map<String, dynamic>);
   }
 
   /// `dart:convert`

@@ -1,6 +1,5 @@
 import 'dart:convert';
 
-
 import 'cdn.dart';
 import 'estate_stream.dart';
 
@@ -19,7 +18,6 @@ class InnerVideo {
     this.stream,
     this.url,
   });
-  
 
   InnerVideo copyWith({
     int? birthRate,
@@ -53,17 +51,21 @@ class InnerVideo {
   factory InnerVideo.fromMap(Map<String, dynamic> map) {
     return InnerVideo(
       birthRate: map['BitRate']?.toInt(),
-      cdns: map['Cdns'] != null ? List<Cdn>.from(map['Cdns']?.map((x) => Cdn.fromMap(x))) : null,
+      cdns: map['Cdns'] != null
+          ? List<Cdn>.from(map['Cdns']?.map((x) => Cdn.fromMap(x)))
+          : null,
       hasAudio: map['HasAudio'],
       hasVideo: map['HasVideo'],
-      stream: map['Stream'] != null ? EstateStream.fromMap(map['Stream']) : null,
+      stream:
+          map['Stream'] != null ? EstateStream.fromMap(map['Stream']) : null,
       url: map['Url'],
     );
   }
 
   String toJson() => json.encode(toMap());
 
-  factory InnerVideo.fromJson(String source) => InnerVideo.fromMap(json.decode(source));
+  factory InnerVideo.fromJson(String source) =>
+      InnerVideo.fromMap(json.decode(source));
 
   @override
   String toString() {
@@ -73,22 +75,22 @@ class InnerVideo {
   @override
   bool operator ==(Object other) {
     if (identical(this, other)) return true;
-  
+
     return other is InnerVideo &&
-      other.birthRate == birthRate &&
-      other.hasAudio == hasAudio &&
-      other.hasVideo == hasVideo &&
-      other.stream == stream &&
-      other.url == url;
+        other.birthRate == birthRate &&
+        other.hasAudio == hasAudio &&
+        other.hasVideo == hasVideo &&
+        other.stream == stream &&
+        other.url == url;
   }
 
   @override
   int get hashCode {
     return birthRate.hashCode ^
-      cdns.hashCode ^
-      hasAudio.hashCode ^
-      hasVideo.hashCode ^
-      stream.hashCode ^
-      url.hashCode;
+        cdns.hashCode ^
+        hasAudio.hashCode ^
+        hasVideo.hashCode ^
+        stream.hashCode ^
+        url.hashCode;
   }
 }

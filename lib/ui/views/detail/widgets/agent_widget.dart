@@ -53,7 +53,8 @@ class AgentWidget extends StatelessWidget {
                   SizedBox(
                       width: MediaQuery.of(context).size.width,
                       child: ElevatedButton(
-                          onPressed: () => launch("tel://$agentPhone"), child: Text(agentPhone)))
+                          onPressed: () => launch("tel://$agentPhone"),
+                          child: Text(agentPhone)))
                 ],
               ),
             ),

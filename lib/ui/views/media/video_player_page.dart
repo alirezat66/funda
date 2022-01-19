@@ -3,10 +3,10 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:funda_assignment/data/models/estate_detail/video.dart';
 import 'package:funda_assignment/ui/widgets/funda_app_bar.dart';
 import 'package:video_player/video_player.dart';
+
 // we can add time line controller and timer to the buttom part of video
 // but in the time I decided to leave this page and works on other parts
 class VideoPlayerPage extends HookWidget {
-  
   final Video video;
   const VideoPlayerPage(this.video, {Key? key}) : super(key: key);
 

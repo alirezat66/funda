@@ -4,6 +4,7 @@ import 'package:funda_assignment/data/models/estate_detail/video.dart';
 import 'package:funda_assignment/ui/route/const_routes.dart';
 
 import '../screen.dart';
+
 // usually I worled with autoroute but you mentioned that we didn't use framework
 // as can as posible
 class GeneralRouter {

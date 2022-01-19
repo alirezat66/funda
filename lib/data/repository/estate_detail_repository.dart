@@ -26,7 +26,7 @@ class EstateDetailRepository implements IEstateDetailRepository {
     final typeString = type == EstateTypes.rent ? 'huur' : 'koop';
     try {
       final response = await _api.get('detail/$apiKey/$typeString/$estateKey');
-      EstateDetail detail = await compute(_computeFetchDetail,response.data);
+      EstateDetail detail = await compute(_computeFetchDetail, response.data);
       return EstateState.loaded(estate: detail);
     } catch (e) {
       return EstateState.failed(error: AppError.fromException(e as Exception));

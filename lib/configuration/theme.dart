@@ -142,7 +142,10 @@ final darkThemeData = ThemeData(
   ),
   textTheme: const TextTheme(
     headline2: TextStyle(
-        fontSize: 24, fontWeight: FontWeight.w600, color: Colors.white,),
+      fontSize: 24,
+      fontWeight: FontWeight.w600,
+      color: Colors.white,
+    ),
     headline3: TextStyle(
         fontSize: 26, fontWeight: FontWeight.w600, color: Colors.white),
     headline4: TextStyle(

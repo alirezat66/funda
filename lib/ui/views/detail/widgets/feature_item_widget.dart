@@ -23,10 +23,10 @@ class FeatureItemWidget extends StatelessWidget {
         if (feature.subFeature != null)
           HtmlWidget(
             feature.subFeature!.titel!,
-            
             textStyle: Theme.of(context).textTheme.bodyText1,
           ),
-        if(feature.subFeature != null)   const Divider(
+        if (feature.subFeature != null)
+          const Divider(
             height: 8,
           ),
         ListView.builder(
@@ -43,6 +43,5 @@ class FeatureItemWidget extends StatelessWidget {
         )
       ],
     );
-    
   }
 }

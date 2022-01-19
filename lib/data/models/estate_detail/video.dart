@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:funda_assignment/data/models/estate_detail/inner_video.dart';
+
 class Video {
   String? imageUrl;
   int? quadiaVideoId;
