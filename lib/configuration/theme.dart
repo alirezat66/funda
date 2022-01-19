@@ -27,6 +27,7 @@ final lightThemData = ThemeData(
       ),
     ),
   ),
+  iconTheme: const IconThemeData(color: Colors.black87),
   dividerTheme: DividerThemeData(
       color: const Color(0xff5292C5).withOpacity(0.5), thickness: 0.5),
   elevatedButtonTheme: ElevatedButtonThemeData(
@@ -92,19 +93,20 @@ final lightThemData = ThemeData(
 final darkThemeData = ThemeData(
   colorScheme: const ColorScheme(
     primary: Color(0xffF7A102),
-    background: Colors.white,
+    background: Color(0xff0F0F0F),
     brightness: Brightness.dark,
     error: Color(0xffFF266F),
-    onBackground: Colors.white,
-    onError: Colors.white,
-    onPrimary: Colors.white,
-    onSecondary: Colors.white,
-    onSurface: Colors.white,
-    primaryVariant: Colors.white,
+    onBackground: Color(0xff0F0F0F),
+    onError: Color(0xff0F0F0F),
+    onPrimary: Color(0xff0F0F0F),
+    onSecondary: Color(0xff0F0F0F),
+    onSurface: Color(0xff0F0F0F),
+    primaryVariant: Color(0xff0F0F0F),
     secondary: Color(0xff2671B2),
     secondaryVariant: Color(0xff246DA8),
-    surface: Colors.white,
+    surface: Color(0xffF7A102),
   ),
+  iconTheme: const IconThemeData(color: Colors.white70),
   scaffoldBackgroundColor: const Color(0xff0F0F0F),
   textButtonTheme: TextButtonThemeData(
     style: TextButton.styleFrom(
@@ -121,7 +123,7 @@ final darkThemeData = ThemeData(
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       elevation: 2,
-      onSurface: Colors.orange,
+      onSurface: const Color(0xffF7A102),
       padding: const EdgeInsets.symmetric(
         horizontal: 25,
         vertical: 14,

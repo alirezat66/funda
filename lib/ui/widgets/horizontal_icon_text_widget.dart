@@ -13,10 +13,9 @@ class HorizontalIconTextWidget extends StatelessWidget {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.end,
       mainAxisAlignment: MainAxisAlignment.center,
-      
       children: [
         SvgPicture.asset(iconPath,
-            color: Colors.black87, width: 16, height: 16),
+            color: Theme.of(context).iconTheme.color, width: 16, height: 16),
         Text(text, style: Theme.of(context).textTheme.bodyText1)
       ],
     );
