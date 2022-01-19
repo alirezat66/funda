@@ -2,12 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:funda_assignment/data/models/estate_detail/media.dart';
 
-// I used HookedWidget and useState to handle simple states like this
-// darkmode and lightmode and etc
-// after I used this images it sounds that the images has not good quality but
-// actually I decided to works on more important parts and I did'nt know among the
-// media photos which category works for images and wich scale is good for showing
-// so ....
 class PhotoGalleryPage extends HookWidget {
   final List<Media> images;
   const PhotoGalleryPage(this.images, {Key? key}) : super(key: key);
