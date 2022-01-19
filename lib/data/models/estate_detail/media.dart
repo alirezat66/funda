@@ -9,7 +9,7 @@ class Media {
   int? indexNumber;
   List<MediaItem>? mediaItems;
   dynamic metadata;
-  dynamic omschrijving;
+  String? mediaName;
   bool? registratieVerplicht;
   int? soort;
 
@@ -20,7 +20,7 @@ class Media {
     this.indexNumber,
     this.mediaItems,
     this.metadata,
-    this.omschrijving,
+    this.mediaName,
     this.registratieVerplicht,
     this.soort,
   });
@@ -34,7 +34,7 @@ class Media {
             ?.map((e) => MediaItem.fromMap(e as Map<String, dynamic>))
             .toList(),
         metadata: data['Metadata'] as dynamic,
-        omschrijving: data['Omschrijving'] as dynamic,
+        mediaName: data['Omschrijving'] as dynamic,
         registratieVerplicht: data['RegistratieVerplicht'] as bool?,
         soort: data['Soort'] as int?,
       );
@@ -46,7 +46,7 @@ class Media {
         'IndexNumber': indexNumber,
         'MediaItems': mediaItems?.map((e) => e.toMap()).toList(),
         'Metadata': metadata,
-        'Omschrijving': omschrijving,
+        'Omschrijving': mediaName,
         'RegistratieVerplicht': registratieVerplicht,
         'Soort': soort,
       };

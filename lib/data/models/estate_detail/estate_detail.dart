@@ -91,6 +91,15 @@ class EstateDetail {
   String? agentPhone;
   List<dynamic>? medeAanbieders;
   List<Media>? media;
+  List<Media> get photoMedia {
+    final list = media!.where((element) => element.categorie == 1).toList();
+    return list;
+  }
+  List<Media> get panoramaImages {
+    final list = media!.where((element) => element.categorie == 5).toList();
+    return list;
+  }
+
   List<dynamic>? mediaPhotos;
   String? mobileUrl;
   String? objectType;

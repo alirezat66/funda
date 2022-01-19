@@ -5,9 +5,10 @@ class MediaActionButtonWidget extends StatelessWidget {
   final bool hasVideo;
   final bool hasPanarama;
   final bool hasPlot;
-
+  final VoidCallback onPanoramaPressed;
   const MediaActionButtonWidget(
       {Key? key,
+      required this.onPanoramaPressed,
       this.hasVideo = false,
       this.hasPanarama = false,
       this.hasPlot = false})
@@ -36,7 +37,7 @@ class MediaActionButtonWidget extends StatelessWidget {
               IconTextWidget(
                   iconData: Icons.threesixty_outlined,
                   text: '360\u00B0',
-                  onPressed: () {}),
+                  onPressed: onPanoramaPressed),
             if (hasPanarama)
               Container(
                 width: 1,

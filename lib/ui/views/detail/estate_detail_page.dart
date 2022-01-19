@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:funda_assignment/data/models/estate_detail/estate_detail.dart';
+import 'package:funda_assignment/data/models/estate_detail/media.dart';
 import 'package:funda_assignment/ui/route/const_routes.dart';
 import 'package:funda_assignment/ui/views/detail/widgets/agent_widget.dart';
 import 'package:funda_assignment/ui/views/detail/widgets/estate_description_widget.dart';
@@ -32,7 +33,7 @@ class _EstateDetailPageState extends State<EstateDetailPage> {
                     background: InkWell(
                   onTap: () {
                     Navigator.pushNamed(context, FundaRoute.photoGalleryPage,
-                        arguments: widget.estate.mediaPhotos);
+                        arguments: widget.estate.photoMedia);
                   },
                   child: Image.network(
                     widget.estate.mainPhoto!,
@@ -50,6 +51,9 @@ class _EstateDetailPageState extends State<EstateDetailPage> {
                   hasVideo: widget.estate.hasVideo!,
                   hasPlot: widget.estate.hasBasePlacement!,
                   hasPanarama: widget.estate.hasIpix!,
+                  onPanoramaPressed: () {
+                    _goToPanoramaPage(widget.estate.panoramaImages);
+                  },
                 ),
                 Padding(
                   padding: const EdgeInsets.all(20.0),
@@ -98,5 +102,10 @@ class _EstateDetailPageState extends State<EstateDetailPage> {
             ),
           )),
     );
+  }
+
+  void _goToPanoramaPage(List<Media> panoramaImages) {
+    Navigator.pushNamed(context, FundaRoute.panaromaPage,
+        arguments: panoramaImages);
   }
 }

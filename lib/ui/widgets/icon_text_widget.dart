@@ -17,18 +17,21 @@ class IconTextWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Expanded(
-        child: Padding(
-      padding: const EdgeInsets.symmetric(vertical: 16),
-      child: Column(
-        children: [
-          Icon(iconData,
-              color: Theme.of(context).colorScheme.secondary, size: size),
-          const SizedBox(
-            height: 8,
-          ),
-          Text(text, style: Theme.of(context).textTheme.button)
-        ],
-      ),
-    ));
+        child: InkWell(
+          onTap: onPressed,
+          child: Padding(
+              padding: const EdgeInsets.symmetric(vertical: 16),
+              child: Column(
+          children: [
+            Icon(iconData,
+                color: Theme.of(context).colorScheme.secondary, size: size),
+            const SizedBox(
+              height: 8,
+            ),
+            Text(text, style: Theme.of(context).textTheme.button)
+          ],
+              ),
+            ),
+        ));
   }
 }

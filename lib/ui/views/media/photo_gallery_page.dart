@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
+import 'package:funda_assignment/data/models/estate_detail/media.dart';
 
 // I used HookedWidget and useState to handle simple states like this
 // darkmode and lightmode and etc
@@ -8,7 +9,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 // media photos which category works for images and wich scale is good for showing
 // so ....
 class PhotoGalleryPage extends HookWidget {
-  final List<dynamic> images;
+  final List<Media> images;
   const PhotoGalleryPage(this.images, {Key? key}) : super(key: key);
 
   @override
@@ -43,7 +44,7 @@ class PhotoGalleryPage extends HookWidget {
     for (int i = 0; i < images.length; i++) {
       pages.add(Center(
         child: Image.network(
-          images[i].toString(),
+          images[i].mediaItems![images[i].mediaItems!.length - 1].url!,
           width: double.infinity,
           fit: BoxFit.fitWidth,
         ),

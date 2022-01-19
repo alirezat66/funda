@@ -5,7 +5,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:funda_assignment/data/models/estate_detail/estate_detail.dart';
 
 void main() {
-  const String finalUri = 'test/data/model/estate_detail';
+  const String finalUri = 'test/data/models/estate_detail';
   group('state detail from json test', () {
     group('test sell one', () {
       final file = File('$finalUri/sell_one.json').readAsStringSync();
@@ -59,7 +59,7 @@ void main() {
         expect(estate.detailAddress, equals("1031VC Amsterdam"));
       });
       test('test price value', () {
-        expect(estate.price!.showingPrice, equals('\u{20B9} 900.000 k.k.'));
+        expect(estate.price!.showingPrice, equals('\u{20AC} 900.000 k.k.'));
       });
       test('test full description', () {
         expect(estate.fullDescription, isNotEmpty);
@@ -147,7 +147,7 @@ void main() {
         expect(estate.detailAddress, equals("3481AM Harmelen"));
       });
       test('test price value', () {
-        expect(estate.price!.showingPrice, equals('\u{20B9} 470.000 k.k.'));
+        expect(estate.price!.showingPrice, equals('\u{20AC} 470.000 k.k.'));
       });
       test('test full description', () {
         expect(estate.fullDescription, isNotEmpty);
@@ -236,7 +236,7 @@ void main() {
         expect(estate.detailAddress, equals("3171NB Poortugaal"));
       });
       test('test price value', () {
-        expect(estate.price!.showingPrice, equals('\u{20B9} 348.000 k.k.'));
+        expect(estate.price!.showingPrice, equals('\u{20AC} 348.000 k.k.'));
       });
       test('test full description', () {
         expect(estate.fullDescription, isNotEmpty);
@@ -324,7 +324,7 @@ void main() {
         expect(estate.detailAddress, equals("2316DN Leiden"));
       });
       test('test price value', () {
-        expect(estate.price!.showingPrice, equals('\u{20B9} 825.000 k.k.'));
+        expect(estate.price!.showingPrice, equals('\u{20AC} 825.000 k.k.'));
       });
       test('test full description', () {
         expect(estate.fullDescription, isNotEmpty);
@@ -412,7 +412,7 @@ void main() {
         expect(estate.detailAddress, equals("1059BR Amsterdam"));
       });
       test('test price value', () {
-        expect(estate.price!.showingPrice, equals('\u{20B9} 2.500 /mnd'));
+        expect(estate.price!.showingPrice, equals('\u{20AC} 2.500 /mnd'));
       });
       test('test full description', () {
         expect(estate.fullDescription, isNotEmpty);
