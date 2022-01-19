@@ -1,6 +1,6 @@
-class Utility {
-  static String moneyFormat(int money) {
-    String price = money.toString();
+extension IntExt on int {
+  String get moneyFormat {
+    String price = toString();
     if (price.length > 3) {
       var value = price;
       value = value.replaceAll(RegExp(r'\D'), '');
@@ -10,6 +10,4 @@ class Utility {
       return price;
     }
   }
-
-  
 }

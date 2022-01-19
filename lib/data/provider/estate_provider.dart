@@ -15,6 +15,7 @@ class EstateProvider extends StateNotifier<EstateState> {
   late final EstateDetailRepository _estateRepository =
       _reader(estateRepositoryProvider);
   Future<void> getEstateDetail(String estateKey, EstateTypes type) async {
+    state = const EstateState.loading();
     state = await _estateRepository.getEstateDetail(estateKey, type);
   }
 }

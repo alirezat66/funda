@@ -11,7 +11,7 @@ class MapWidget extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text('Location', style: Theme.of(context).textTheme.headline2),
+        Text('Location', style: Theme.of(context).textTheme.headline3),
         const SizedBox(height: 4),
         IgnorePointer(
           child: AspectRatio(
@@ -48,7 +48,6 @@ class MapWidget extends StatelessWidget {
                             child: Image.asset(
                               'images/map_pin_icon.png',
                               width: 50,
-                              
                             ),
                           ),
                         )

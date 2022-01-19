@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:funda_assignment/data/models/estate_detail/estate_detail.dart';
+import 'package:funda_assignment/data/models/req/estate_detail_fake_requests.dart';
 import 'package:funda_assignment/data/provider/estate_provider.dart';
 import 'package:funda_assignment/ui/views/detail/estate_detail_error_page.dart';
 import 'package:funda_assignment/ui/views/detail/estate_detail_page.dart';
@@ -27,7 +28,8 @@ class _EstateDetailScreenState extends ConsumerState<EstateDetailScreen> {
   @override
   void initState() {
     super.initState();
-    Future.delayed(Duration.zero, () {
+    // add a callback after first widget built
+    WidgetsBinding.instance!.addPostFrameCallback((timeStamp) {
       _getDetailInfo();
     });
   }
@@ -38,15 +40,20 @@ class _EstateDetailScreenState extends ConsumerState<EstateDetailScreen> {
     return Scaffold(
       body: state.when(
           loading: () => const EstateDetailLoadingPage(),
-          loaded: (estate) => EstateDetailPage(
-                estate: estate,
-              ),
-          failed: (error) => const EstateDetailErrorPage()),
+          loaded: (estate) => EstateDetailPage(estate: estate),
+          failed: (error) => EstateDetailErrorPage(error, () {
+                _getDetailInfo();
+              })),
     );
   }
 
+  // I create a fakerequest generator to get rent, buy and error and if one of the
+  // items deleted buy system, we have others.
   void _getDetailInfo() {
-    ref.watch(estateStateNotifireProvider.notifier).getEstateDetail(
-        '78151742-172a-4e5d-b821-a3f5a648b615', EstateTypes.buy);
+    FakeRequest req = EstateDetailFakeRequests().getRandomRequest();
+    ref.read(estateStateNotifireProvider.notifier).getEstateDetail(
+          req.estateKey,
+          req.type,
+        );
   }
 }

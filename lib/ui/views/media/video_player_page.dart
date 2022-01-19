@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:funda_assignment/data/models/estate_detail/video.dart';
+import 'package:funda_assignment/ui/widgets/funda_app_bar.dart';
 import 'package:video_player/video_player.dart';
-// we can add time line controller and timer to the buttom part of vide
+// we can add time line controller and timer to the buttom part of video
 // but in the time I decided to leave this page and works on other parts
 class VideoPlayerPage extends HookWidget {
   
@@ -24,7 +25,7 @@ class VideoPlayerPage extends HookWidget {
       _controllerState.value = _controller;
     }, const []);
     return Scaffold(
-      appBar: AppBar(),
+      appBar: FundaAppBar(),
       body: Center(
         child: initializedState.value
             ? Stack(

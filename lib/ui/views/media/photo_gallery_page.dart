@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:funda_assignment/data/models/estate_detail/media.dart';
+import 'package:funda_assignment/ui/widgets/funda_app_bar.dart';
 
 class PhotoGalleryPage extends HookWidget {
   final List<Media> images;
@@ -11,7 +12,7 @@ class PhotoGalleryPage extends HookWidget {
     final _pageController = PageController();
     final _currentIndex = useState(0);
     return Scaffold(
-        appBar: AppBar(),
+        appBar: FundaAppBar(),
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [

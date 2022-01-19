@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:funda_assignment/configuration/utility.dart';
+import 'package:funda_assignment/configuration/int_extention.dart';
 
 class Price {
   dynamic geenExtraKosten;
@@ -17,10 +17,10 @@ class Price {
   String get showingPrice {
     if (sellPrice == null) {
       // it is rental place
-      return '\u{20AC} ${Utility.moneyFormat(rentalPrice!)} $rentAbbreviation';
+      return '\u{20AC} ${rentalPrice!.moneyFormat} $rentAbbreviation';
     } else {
       // it is sell object
-      return '\u{20AC} ${Utility.moneyFormat(sellPrice!)} $sellAbbreviation';
+      return '\u{20AC} ${sellPrice!.moneyFormat} $sellAbbreviation';
     }
   }
 

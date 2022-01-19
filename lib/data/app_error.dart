@@ -14,10 +14,12 @@ enum AppErrorType {
 }
 
 class AppError {
-  String message = '';
-  AppErrorType type = AppErrorType.unknown;
-
-  AppError(Exception error) {
+  final String message;
+  final AppErrorType type;
+  const AppError({required this.message, required this.type});
+  factory AppError.fromException(Exception error) {
+    String message;
+    AppErrorType type;
     if (error is DioError) {
       message = error.message;
       switch (error.type) {
@@ -64,5 +66,6 @@ class AppError {
       type = AppErrorType.unknown;
       message = 'AppError: $error';
     }
+    return AppError(type: type, message: message);
   }
 }

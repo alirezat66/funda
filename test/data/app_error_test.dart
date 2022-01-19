@@ -4,10 +4,10 @@ import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:funda_assignment/data/app_error.dart';
 
-void main(){
-  test('test for app Error', (){
+void main() {
+  test('test for app Error', () {
     expect(
-        AppError(
+        AppError.fromException(
           DioError(
               type: DioErrorType.connectTimeout,
               requestOptions: RequestOptions(path: '')),
@@ -15,7 +15,7 @@ void main(){
         equals(AppErrorType.timeout));
 
     expect(
-        AppError(
+        AppError.fromException(
           DioError(
               type: DioErrorType.receiveTimeout,
               requestOptions: RequestOptions(path: '')),
@@ -23,7 +23,7 @@ void main(){
         equals(AppErrorType.timeout));
 
     expect(
-        AppError(
+        AppError.fromException(
           DioError(
               type: DioErrorType.sendTimeout,
               requestOptions: RequestOptions(path: '')),
@@ -31,7 +31,7 @@ void main(){
         equals(AppErrorType.network));
 
     expect(
-        AppError(
+        AppError.fromException(
           DioError(
               type: DioErrorType.response,
               requestOptions: RequestOptions(path: ''),
@@ -41,7 +41,7 @@ void main(){
         equals(AppErrorType.badRequest));
 
     expect(
-        AppError(
+        AppError.fromException(
           DioError(
               type: DioErrorType.response,
               requestOptions: RequestOptions(path: ''),
@@ -51,7 +51,7 @@ void main(){
         equals(AppErrorType.unauthorized));
 
     expect(
-        AppError(
+        AppError.fromException(
           DioError(
               type: DioErrorType.response,
               requestOptions: RequestOptions(path: ''),
@@ -61,23 +61,22 @@ void main(){
         equals(AppErrorType.server));
 
     expect(
-        AppError(
+        AppError.fromException(
           DioError(
               type: DioErrorType.cancel,
               requestOptions: RequestOptions(path: '')),
         ).type,
         equals(AppErrorType.cancel));
 
-
     expect(
-        AppError(
+        AppError.fromException(
           DioError(
               type: DioErrorType.other,
               requestOptions: RequestOptions(path: '')),
         ).type,
         equals(AppErrorType.unknown));
 
-    expect(AppError(const FileSystemException()).type,
+    expect(AppError.fromException(const FileSystemException()).type,
         equals(AppErrorType.unknown));
   });
 }
